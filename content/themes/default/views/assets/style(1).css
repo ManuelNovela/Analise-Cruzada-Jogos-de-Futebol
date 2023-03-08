@@ -1,0 +1,339 @@
+@font-face {
+  font-family: 'bto-sb-app';
+  src:  url('bto-sb-app.eot?5mq567');
+  src:  url('bto-sb-app.eot?5mq567#iefix') format('embedded-opentype'),
+    url('bto-sb-app.ttf?5mq567') format('truetype'),
+    url('bto-sb-app.woff?5mq567') format('woff'),
+    url('bto-sb-app.svg?5mq567#bto-sb-app') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="bto-app-"], [class*=" bto-app-"] {
+  font-family: 'bto-sb-app' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bto-app-bet-search:before {
+  content: "\e900";
+}
+.bto-app-clear-betslip:before {
+  content: "\e901";
+}
+.bto-app-delete:before {
+  content: "\e902";
+}
+.bto-app-collapsed-arrow:before {
+  content: "\e903";
+}
+.bto-app-expand-arrow:before {
+  content: "\e904";
+}
+.bto-app-favorite-o:before {
+  content: "\e905";
+}
+.bto-app-favorite:before {
+  content: "\e906";
+}
+.bto-app-help-ov:before {
+  content: "\e907";
+}
+.bto-app-last-minute-bets:before {
+  content: "\e908";
+}
+.bto-app-live-now:before {
+  content: "\e909";
+}
+.bto-app-lock:before {
+  content: "\e90a";
+}
+.bto-app-match-time:before {
+  content: "\e90b";
+}
+.bto-app-my-favourites:before {
+  content: "\e90c";
+}
+.bto-app-notification:before {
+  content: "\e90d";
+}
+.bto-app-odd-dw:before {
+  content: "\e90e";
+}
+.bto-app-odd-dw-bet:before {
+  content: "\e90f";
+}
+.bto-app-odd-up:before {
+  content: "\e910";
+}
+.bto-app-odd-up-bet:before {
+  content: "\e911";
+}
+.bto-app-print:before {
+  content: "\e912";
+}
+.bto-app-quick-links:before {
+  content: "\e913";
+}
+.bto-app-slide-left:before {
+  content: "\e914";
+}
+.bto-app-slide-right:before {
+  content: "\e915";
+}
+.bto-app-sound-off:before {
+  content: "\e916";
+}
+.bto-app-sound-on:before {
+  content: "\e917";
+}
+.bto-app-statistics:before {
+  content: "\e918";
+}
+.bto-app-upcoming:before {
+  content: "\e919";
+}
+.bto-app-view-50:before {
+  content: "\e91a";
+}
+.bto-app-view-100:before {
+  content: "\e91b";
+}
+.bto-app-arrow-left:before {
+  content: "\e91c";
+}
+.bto-app-arrow-right:before {
+  content: "\e91d";
+}
+.bto-app-minus:before {
+  content: "\e91e";
+}
+.bto-app-plus:before {
+  content: "\e91f";
+}
+.bto-app-bet-home:before {
+  content: "\e920";
+}
+.bto-app-menu:before {
+  content: "\e921";
+}
+.bto-app-dealer:before {
+  content: "\e922";
+}
+.bto-app-user:before {
+  content: "\e923";
+}
+.bto-app-coupon:before {
+  content: "\e924";
+}
+.bto-app-flashback:before {
+  content: "\e925";
+}
+.bto-app-history:before {
+  content: "\e926";
+}
+.bto-app-bet:before {
+  content: "\e927";
+}
+.bto-app-bet-new:before {
+  content: "\e928";
+}
+.bto-app-bet-live:before {
+  content: "\e929";
+}
+.bto-app-info-ov:before {
+  content: "\e92a";
+}
+.bto-app-warning-ov:before {
+  content: "\e92b";
+}
+.bto-app-delete-ov:before {
+  content: "\e92c";
+}
+.bto-app-plus-ov:before {
+  content: "\e92d";
+}
+.bto-app-minus-ov:before {
+  content: "\e92e";
+}
+.bto-app-check-ov:before {
+  content: "\e92f";
+}
+.bto-app-check:before {
+  content: "\e930";
+}
+.bto-app-team:before {
+  content: "\e931";
+}
+.bto-app-cash:before {
+  content: "\e932";
+}
+.bto-app-oldtime:before {
+  content: "\e933";
+}
+.bto-app-freebet:before {
+  content: "\e934";
+}
+.bto-app-bookbet:before {
+  content: "\e935";
+}
+.bto-app-boxbet:before {
+  content: "\e936";
+}
+.bto-app-odd-full:before {
+  content: "\e937";
+}
+.bto-app-odd-w:before {
+  content: "\e938";
+}
+.bto-app-date:before {
+  content: "\e939";
+}
+.bto-app-live-stream:before {
+  content: "\e93a";
+}
+.bto-app-betslip-ch:before {
+  content: "\e93b";
+}
+.bto-app-top-winn:before {
+  content: "\e93c";
+}
+.bto-app-negotiations:before {
+  content: "\e93d";
+}
+.bto-app-spin:before {
+  content: "\e93e";
+}
+.bto-app-live-stream-o:before {
+  content: "\e93f";
+}
+.bto-app-coupon-bet:before {
+  content: "\e940";
+}
+.bto-app-filter:before {
+  content: "\e941";
+}
+.bto-app-sorting:before {
+  content: "\e942";
+}
+.bto-app-sorting-top:before {
+  content: "\e943";
+}
+.bto-app-sorting-bottom:before {
+  content: "\e944";
+}
+.bto-app-shortcode:before {
+  content: "\e945";
+}
+.bto-app-barcode:before {
+  content: "\e946";
+}
+.bto-app-bookmark:before {
+  content: "\e947";
+}
+.bto-app-logout:before {
+  content: "\e948";
+}
+.bto-app-scale-in:before {
+  content: "\e949";
+}
+.bto-app-scale-out:before {
+  content: "\e94a";
+}
+.bto-app-keyboard:before {
+  content: "\e94b";
+}
+.bto-app-live-tracker:before {
+  content: "\e94c";
+}
+.bto-app-add-user:before {
+  content: "\e94d";
+}
+.bto-app-refresh:before {
+  content: "\e94e";
+}
+.bto-app-off:before {
+  content: "\e94f";
+}
+.bto-app-table:before {
+  content: "\e950";
+}
+.bto-app-settings:before {
+  content: "\e951";
+}
+.bto-app-battle:before {
+  content: "\e952";
+}
+.bto-app-tips:before {
+  content: "\e953";
+}
+.bto-app-quiz:before {
+  content: "\e954";
+}
+.bto-app-aistat:before {
+  content: "\e955";
+}
+.bto-app-timeline:before {
+  content: "\e956";
+}
+.bto-app-allsport:before {
+  content: "\e957";
+}
+.bto-app-incompatible:before {
+  content: "\e958";
+}
+.bto-app-help:before {
+  content: "\e959";
+}
+.bto-app-betbuilder:before {
+  content: "\e95a";
+}
+.bto-app-more-h:before {
+  content: "\e95b";
+}
+.bto-app-more-v:before {
+  content: "\e95c";
+}
+.bto-app-help-o:before {
+  content: "\e95d";
+}
+.bto-app-cash-o:before {
+  content: "\e95e";
+}
+.bto-app-arrow-dw:before {
+  content: "\e95f";
+}
+.bto-app-arrow-up:before {
+  content: "\e960";
+}
+.bto-app-log-tracker:before {
+  content: "\e961";
+}
+.bto-app-scoreboard:before {
+  content: "\e962";
+}
+.bto-app-game-bingo:before {
+  content: "\e963";
+}
+.bto-app-predict:before {
+  content: "\e964";
+}
+.bto-app-previewgame:before {
+  content: "\e965";
+}
+.bto-app-worldcup:before {
+  content: "\e966";
+}
+.bto-app-app-icon-eye-show:before {
+  content: "\e967";
+}
+.bto-app-app-icon-eye-hide:before {
+  content: "\e968";
+}

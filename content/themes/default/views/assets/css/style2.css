@@ -1,0 +1,381 @@
+.grecaptcha-badge{visibility:hidden;}
+#menu-item-22882 span {
+	display: none;
+}
+
+#menu-item-22893 span {
+	display: none;
+}
+
+/*Promotion Boxes Height*/
+img._mi._before._svg{
+	width: 2.6rem;
+}
+.wp-image-14606{
+	padding-left: 1rem;
+}
+@media (min-height:200px){
+.panel-widget-style{
+	min-height: fit-content;
+}}
+@media (min-height:800px){
+.panel-widget-style{
+	min-height: 310px;
+}}
+/*promotion boxes end*/
+
+.bto-user-login .bto-form-control-username {min-width: 150px;}
+
+.slider .tparrows, .slider .tp-bullets {
+	display: block;
+}
+
+
+@media (max-width: 991px) {
+/* 	header .bto-login-simple-mobile .brand {
+    top: 5px;
+} */
+}
+
+@media (max-width: 480px) {
+/* 	header .navigation-header .brand img {
+    width: 155px;
+    height: 53px;
+} */
+}
+
+/*BTOBET Change of Ticket BBDES-390*/
+.play-game-page { background-color: #17181d; background-image: radial-gradient(circle closest-corner at 50% 400px, #320a3a, rgba(12, 90, 104, 0) 50%); }
+.bto-casino-playgame .bto-playgame-title-content, .bto-casino-playgame .bto-playgame, .bto-casino-playgame .bto-playgame-menu i { background: #262735; }
+.bto-casino-playgame .bto-playgame-title-content { padding-left: 0;  background: transparent; }
+.bto-casino-playgame .bto-playgame-title { color: #f2f2f2; }
+.bto-casino-playgame .bto-playgame { padding: 0; }
+.bto-casino-playgame .bto-playgame-menu i { color: #f2f2f2; border-color: #712879; background: #712879; }
+.bto-casino-playgame .bto-playgame-menu i:hover { color: #f2f2f2; border-color: #a34aad; background: #a34aad; }
+.iloto-game-page .bto-casino-playgame .bto-playgame { background: #ffffff; }
+.iloto-game-page .bto-casino-playgame .bto-playgame-menu, .iloto-game-page .bto-casino-playgame .bto-playgame-title-content { display: none; }
+.bto-casino-playgame .bto-playgame-menu .bto-icon-heart {
+color: #f2f2f2; }
+
+/*Editec Opt In promotion button*/
+#promo-subscribe{
+color: #000000;
+border-color: #fae100; 
+background-color: #fae100; 
+padding: 1.2rem 0.8rem 1.2rem 0.8rem;
+font-size: 16px; 
+font-weight: 700; 
+width: 15%;
+display: block;
+margin: 0 auto;
+box-shadow: 2px 2px 6px -1px rgba(0, 0, 0, .4);
+}
+#promo-subscribe:hover{
+background-color: #ffea2c;
+}
+@media (max-width: 575.98px) {
+	#promo-subscribe{
+		width: 60%;
+	}
+}
+
+span.tp-bullet-title
+
+{ display: none !important; }
+
+.bto-player-menu .nav-tabs>li {
+max-width:100%;
+width:100%; }
+
+.withdrawal-text {
+	text-align: center;
+}
+
+.wp-image-14606 {
+	margin-left: 7.6px;
+}
+@media only screen and (max-width:991px) {
+	header .bto-login-simple-mobile .bto-login-simple-mobile-btn {
+		z-index: 999;
+	}
+}
+
+@media (max-width: 769px) {
+	#czater-contener{
+		margin-bottom: 12%;
+	}
+	#bifrost, #bifrost iframe{height:calc(100vh - 200px) !important;}
+}body{} {} 		</style>
+		<link rel="stylesheet" class="bto-cdn-el" href="./Template_files/style(1).css"><link rel="stylesheet" class="bto-cdn-el" href="./Template_files/style(2).css"><link rel="stylesheet" class="bto-cdn-el" href="./Template_files/style(3).css"><link rel="stylesheet" class="bto-cdn-el" href="./Template_files/app.css"><link rel="stylesheet" class="bto-cdn-el" href="./Template_files/premierbet.css"><style type="text/css" class="bto-cdn-el">#sportbook { display: none; height: 100% !important; overflow: hidden !important } #sportbook > div { height: 100% !important } #bto-sb-mb-splash-content { position: relative; min-height: 500px; height: 100vh } #bto-sb-mb-splash { position: absolute; top: 0; width: 100%; height: 100%; background-color: rgba(44, 51, 63, 0.5) } #bto-sb-mb-splash:before { content: ''; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; position: absolute; top: 20%; left: 0; right: 0; width: 80px; height: 80px; margin: 0 auto; border-radius: 50%; border-top: 2px solid #5bbf5a; border-right: 2px solid transparent; -moz-animation: bto-sb-mb-spin .6s linear infinite; -o-animation: bto-sb-mb-spin .6s linear infinite; -webkit-animation: bto-sb-mb-spin .6s linear infinite; animation: bto-sb-mb-spin .6s linear infinite }
+        #bto-sb-mb-splash-error { display: none; position: absolute; bottom: 50px; width: 100%; padding: 10px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 20px; text-align: center; color: #f2f2f2 } @-webkit-keyframes bto-sb-mb-spin { 100% { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -ms-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg) } } @-moz-keyframes bto-sb-mb-spin { 100% { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -ms-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg) } } @-o-keyframes bto-sb-mb-spin { 100% { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -ms-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg) } }
+        @keyframes bto-sb-mb-spin { 100% { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -ms-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg) } }</style><style type="text/css">@charset "UTF-8";
+.mx-datepicker {
+  position: relative;
+  display: inline-block;
+  width: 210px;
+  color: #73879c;
+  font: 14px/1.5 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei',
+ sans-serif; }
+  .mx-datepicker * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  .mx-datepicker.disabled {
+    opacity: 0.7;
+    cursor: not-allowed; }
+
+.mx-datepicker-range {
+  width: 320px; }
+
+.mx-datepicker-popup {
+  position: absolute;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border: 1px solid #d9d9d9;
+  background-color: #fff;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  z-index: 1000; }
+
+.mx-input-wrapper {
+  position: relative; }
+  .mx-input-wrapper .mx-clear-wrapper {
+    display: none; }
+  .mx-input-wrapper:hover .mx-clear-wrapper {
+    display: block; }
+  .mx-input-wrapper:hover .mx-clear-wrapper + .mx-input-append {
+    display: none; }
+
+.mx-input {
+  display: inline-block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 30px;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+  .mx-input:disabled, .mx-input.disabled {
+    opacity: 0.7;
+    cursor: not-allowed; }
+  .mx-input:focus {
+    outline: none; }
+  .mx-input::-ms-clear {
+    display: none; }
+
+.mx-input-append {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 100%;
+  padding: 6px; }
+
+.mx-input-icon {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-style: normal;
+  color: #555;
+  text-align: center;
+  cursor: pointer; }
+
+.mx-calendar-icon {
+  width: 100%;
+  height: 100%;
+  color: #555;
+  stroke-width: 8px;
+  stroke: currentColor;
+  fill: currentColor; }
+
+.mx-clear-icon::before {
+  display: inline-block;
+  content: '\2716';
+  vertical-align: middle; }
+
+.mx-clear-icon::after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle; }
+
+.mx-range-wrapper {
+  width: 496px;
+  overflow: hidden; }
+
+.mx-shortcuts-wrapper {
+  text-align: left;
+  padding: 0 12px;
+  line-height: 34px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+  .mx-shortcuts-wrapper .mx-shortcuts {
+    background: none;
+    outline: none;
+    border: 0;
+    color: #48576a;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    cursor: pointer; }
+    .mx-shortcuts-wrapper .mx-shortcuts:hover {
+      color: #419dec; }
+    .mx-shortcuts-wrapper .mx-shortcuts:after {
+      content: '|';
+      margin: 0 10px;
+      color: #48576a; }
+
+.mx-datepicker-footer {
+  padding: 4px;
+  clear: both;
+  text-align: right;
+  border-top: 1px solid rgba(0, 0, 0, 0.05); }
+
+.mx-datepicker-btn {
+  font-size: 12px;
+  line-height: 1;
+  padding: 7px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: 3px; }
+
+.mx-datepicker-btn-confirm {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #73879c; }
+  .mx-datepicker-btn-confirm:hover {
+    color: #1284e7;
+    border-color: #1284e7; }
+
+/* 日历组件 */
+.mx-calendar {
+  float: left;
+  color: #73879c;
+  padding: 6px 12px;
+  font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, sans-serif; }
+  .mx-calendar * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+
+.mx-calendar-header {
+  padding: 0 4px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  overflow: hidden; }
+  .mx-calendar-header > a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer; }
+    .mx-calendar-header > a:hover {
+      color: #419dec; }
+  .mx-icon-last-month, .mx-icon-last-year,
+  .mx-icon-next-month,
+  .mx-icon-next-year {
+    padding: 0 6px;
+    font-size: 20px;
+    line-height: 30px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+  .mx-icon-last-month, .mx-icon-last-year {
+    float: left; }
+  
+  .mx-icon-next-month,
+  .mx-icon-next-year {
+    float: right; }
+
+.mx-calendar-content {
+  width: 224px;
+  height: 224px; }
+  .mx-calendar-content .cell {
+    vertical-align: middle;
+    cursor: pointer; }
+    .mx-calendar-content .cell:hover {
+      background-color: #eaf8fe; }
+    .mx-calendar-content .cell.actived {
+      color: #fff;
+      background-color: #1284e7; }
+    .mx-calendar-content .cell.inrange {
+      background-color: #eaf8fe; }
+    .mx-calendar-content .cell.disabled {
+      cursor: not-allowed;
+      color: #ccc;
+      background-color: #f3f3f3; }
+
+.mx-panel {
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+
+.mx-panel-date {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0; }
+  .mx-panel-date td,
+  .mx-panel-date th {
+    font-size: 12px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    overflow: hidden;
+    text-align: center; }
+  .mx-panel-date td.today {
+    color: #2a90e9; }
+  .mx-panel-date td.last-month, .mx-panel-date td.next-month {
+    color: #ddd; }
+
+.mx-panel-year {
+  padding: 7px 0; }
+  .mx-panel-year .cell {
+    display: inline-block;
+    width: 40%;
+    margin: 1px 5%;
+    line-height: 40px; }
+
+.mx-panel-month .cell {
+  display: inline-block;
+  width: 30%;
+  line-height: 40px;
+  margin: 8px 1.5%; }
+
+.mx-time-list {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+  overflow-y: auto;
+  /* 滚动条滑块 */ }
+  .mx-time-list .mx-time-picker-item {
+    display: block;
+    text-align: left;
+    padding-left: 10px; }
+  .mx-time-list:first-child {
+    border-left: 0; }
+  .mx-time-list .cell {
+    width: 100%;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px; }
+  .mx-time-list::-webkit-scrollbar {
+    width: 8px;
+    height: 8px; }
+  .mx-time-list::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1); }
+  .mx-time-list:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); }

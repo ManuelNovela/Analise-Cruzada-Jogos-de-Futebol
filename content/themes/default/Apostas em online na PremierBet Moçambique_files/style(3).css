@@ -1,0 +1,649 @@
+﻿/*-----------------------------------------------
+	#Category Flags
+-----------------------------------------------*/
+.bto-sb-flag { position: absolute; left: 0; top: 0; width: 35px; height: 100%; text-align: center; }
+.bto-sb-flag:before { content: ""!important; position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 16px; height: 12px; margin: auto; background-position: center center; background-repeat:no-repeat; background-size: cover; box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.15); background-image: url(flags/noicon.svg); }
+.bto-sb-flag-oval:before { width: 16px; height: 16px; border-radius: 50%; }
+.bto-sb-flag-rect:before { width: 16px; height: 16px; }
+.bto-sb-flag.noicon:before { background-image: url(flags/noicon.svg); }
+.bto-sb-flag.andorra:before { background-image: url(flags/ad.svg); }
+.bto-sb-flag.uae:before, .bto-sb-flag.united.arab.emirates:before, .bto-sb-flag.united-arab-emirates:before { background-image: url(flags/ae.svg);}
+.bto-sb-flag.afghanistan:before { background-image: url(flags/af.svg); }
+.bto-sb-flag.antigua:before, .bto-sb-flag.antigua-and-barbuda:before { background-image: url(flags/ag.svg); }
+.bto-sb-flag.anguilla:before { background-image: url(flags/ai.svg); }
+.bto-sb-flag.albania:before { background-image: url(flags/al.svg); }
+.bto-sb-flag.armenia:before { background-image: url(flags/am.svg); }
+.bto-sb-flag.angola:before { background-image: url(flags/ao.svg); }
+.bto-sb-flag.argentina:before { background-image: url(flags/ar.svg); }
+.bto-sb-flag.american.samoa:before, .bto-sb-flag.american-samoa:before { background-image: url(flags/as.svg); }
+.bto-sb-flag.austria:before, .bto-sb-flag.austria-amateur:before { background-image: url(flags/at.svg); }
+.bto-sb-flag.australia:before { background-image: url(flags/au.svg); }
+.bto-sb-flag.aruba:before { background-image: url(flags/aw.svg); }
+.bto-sb-flag.aland.islands:before, .bto-sb-flag.aland-islands:before { background-image: url(flags/ax.svg); }
+.bto-sb-flag.azerbaijan:before { background-image: url(flags/az.svg); }
+.bto-sb-flag.bosnia:before, .bto-sb-flag.bosnia-herzegovina:before, .bto-sb-flag.bosnia-herz:before { background-image: url(flags/ba.svg); }
+.bto-sb-flag.barbados:before { background-image: url(flags/bb.svg); }
+.bto-sb-flag.bangladesh:before { background-image: url(flags/bd.svg); }
+.bto-sb-flag.belgium:before { background-image: url(flags/be.svg); }
+.bto-sb-flag.burkina.faso:before, .bto-sb-flag.burkina-faso:before { background-image: url(flags/bf.svg); }
+.bto-sb-flag.bulgaria:before { background-image: url(flags/bg.svg); }
+.bto-sb-flag.bahrain:before { background-image: url(flags/bh.svg); }
+.bto-sb-flag.burundi:before { background-image: url(flags/bi.svg); }
+.bto-sb-flag.benin:before { background-image: url(flags/bj.svg); }
+.bto-sb-flag.bermuda:before { background-image: url(flags/bm.svg); }
+.bto-sb-flag.brunei:before { background-image: url(flags/bn.svg); }
+.bto-sb-flag.bolivia:before { background-image: url(flags/bo.svg); }
+.bto-sb-flag.brazil:before { background-image: url(flags/br.svg); }
+.bto-sb-flag.bahamas:before { background-image: url(flags/bs.svg); }
+.bto-sb-flag.bhutan:before { background-image: url(flags/bt.svg); }
+.bto-sb-flag.bouvet.island:before, .bto-sb-flag.bouvet-island:before { background-image: url(flags/bv.svg); }
+.bto-sb-flag.botswana:before { background-image: url(flags/bw.svg); }
+.bto-sb-flag.belarus:before { background-image: url(flags/by.svg); }
+.bto-sb-flag.belize:before { background-image: url(flags/bz.svg); }
+.bto-sb-flag.canada:before { background-image: url(flags/ca.svg); }
+.bto-sb-flag.cocos.islands:before, .bto-sb-flag.cocos-islands:before { background-image: url(flags/cc.svg); }
+.bto-sb-flag.congo:before { background-image: url(flags/cd.svg); }
+.bto-sb-flag.central.african.republic:before, .bto-sb-flag.central-african-republic:before { background-image: url(flags/cf.svg); }
+.bto-sb-flag.congo.brazzaville:before, .bto-sb-flag.congo-brazzaville:before { background-image: url(flags/cg.svg); }
+.bto-sb-flag.switzerland:before { background-image: url(flags/ch.svg); }
+.bto-sb-flag.cote.oire:before, .bto-sb-flag.ivory-coast:before { background-image: url(flags/ci.svg); }
+.bto-sb-flag.cook.islands:before, .bto-sb-flag.cook-islands:before { background-image: url(flags/ck.svg); }
+.bto-sb-flag.chile:before { background-image: url(flags/cl.svg); }
+.bto-sb-flag.cameroon:before { background-image: url(flags/cm.svg); }
+.bto-sb-flag.china:before { background-image: url(flags/cn.svg); }
+.bto-sb-flag.colombia:before { background-image: url(flags/co.svg); }
+.bto-sb-flag.costa.rica:before, .bto-sb-flag.costa-rica:before { background-image: url(flags/cr.svg); }
+.bto-sb-flag.cuba:before { background-image: url(flags/cu.svg); }
+.bto-sb-flag.cape.verde:before { background-image: url(flags/cv.svg); }
+.bto-sb-flag.christmas.island:before, .bto-sb-flag.christmas-island:before { background-image: url(flags/cx.svg); }
+.bto-sb-flag.cyprus:before { background-image: url(flags/cy.svg); }
+.bto-sb-flag.czech:before, .bto-sb-flag.czech-republic:before { background-image: url(flags/cz.svg); }
+.bto-sb-flag.germany:before, .bto-sb-flag.germany-amateur:before { background-image: url(flags/de.svg); }
+.bto-sb-flag.djibouti:before { background-image: url(flags/dj.svg); }
+.bto-sb-flag.denmark:before, .bto-sb-flag.denmark-amateur:before { background-image: url(flags/dk.svg); }
+.bto-sb-flag.dominica:before { background-image: url(flags/dm.svg); }
+.bto-sb-flag.dominican.republic:before, .bto-sb-flag.dominican-republic:before { background-image: url(flags/do.svg); }
+.bto-sb-flag.algeria:before { background-image: url(flags/dz.svg); }
+.bto-sb-flag.ecuador:before { background-image: url(flags/ec.svg); }
+.bto-sb-flag.estonia:before { background-image: url(flags/ee.svg); }
+.bto-sb-flag.egypt:before { background-image: url(flags/eg.svg); }
+.bto-sb-flag.western.sahara:before, .bto-sb-flag.western-sahara:before { background-image: url(flags/eh.svg); }
+.bto-sb-flag.eritrea:before { background-image: url(flags/er.svg); }
+.bto-sb-flag.spain:before, .bto-sb-flag.spain-amateur:before { background-image: url(flags/es.svg); }
+.bto-sb-flag.ethiopia:before { background-image: url(flags/et.svg); }
+.bto-sb-flag.european.union:before, .bto-sb-flag.european-union:before { background-image: url(flags/eu.svg); }
+.bto-sb-flag.finland:before, .bto-sb-flag.finland-amateur:before { background-image: url(flags/fi.svg); }
+.bto-sb-flag.fiji:before { background-image: url(flags/fj.svg); }
+.bto-sb-flag.falkland.islands:before, .bto-sb-flag.falkland-islands:before  { background-image: url(flags/fk.svg); }
+.bto-sb-flag.micronesia:before { background-image: url(flags/fm.svg); }
+.bto-sb-flag.faroe.islands:before, .bto-sb-flag.faroe-islands:before { background-image: url(flags/fo.svg); }
+.bto-sb-flag.france:before { background-image: url(flags/fr.svg); }
+.bto-sb-flag.gabon:before { background-image: url(flags/ga.svg); }
+.bto-sb-flag.united.kingdom:before, .bto-sb-flag.united-kingdom:before, .bto-sb-flag.great-britain { background-image: url(flags/gb.svg); }
+.bto-sb-flag.grenada:before { background-image: url(flags/gd.svg); }
+.bto-sb-flag.georgia:before { background-image: url(flags/ge.svg); }
+.bto-sb-flag.french.guiana:before, .bto-sb-flag.french-guiana:before { background-image: url(flags/gf.svg); }
+.bto-sb-flag.ghana:before { background-image: url(flags/gh.svg); }
+.bto-sb-flag.gibraltar:before { background-image: url(flags/gi.svg); }
+.bto-sb-flag.greenland:before { background-image: url(flags/gl.svg); }
+.bto-sb-flag.gambia:before { background-image: url(flags/gm.svg); }
+.bto-sb-flag.guinea:before { background-image: url(flags/gn.svg); }
+.bto-sb-flag.guadeloupe:before { background-image: url(flags/gp.svg); }
+.bto-sb-flag.equatorial.guinea:before, .bto-sb-flag.equatorial-guinea:before { background-image: url(flags/gq.svg); }
+.bto-sb-flag.greece:before { background-image: url(flags/gr.svg); }
+.bto-sb-flag.sandwich.islands:before, .bto-sb-flag.sandwich-islands:before { background-image: url(flags/gs.svg); }
+.bto-sb-flag.guatemala:before { background-image: url(flags/gt.svg); }
+.bto-sb-flag.guam:before { background-image: url(flags/gu.svg); }
+.bto-sb-flag.guinea-bissau:before { background-image: url(flags/gw.svg); }
+.bto-sb-flag.guyana:before { background-image: url(flags/gy.svg); }
+.bto-sb-flag.hong.kong:before, .bto-sb-flag.hong-kong:before { background-image: url(flags/hk.svg); }
+.bto-sb-flag.heard.island:before, .bto-sb-flag.heard-island:before { background-image: url(flags/hm.svg); }
+.bto-sb-flag.honduras:before { background-image: url(flags/hn.svg); }
+.bto-sb-flag.croatia:before { background-image: url(flags/hr.svg); }
+.bto-sb-flag.haiti:before { background-image: url(flags/ht.svg); }
+.bto-sb-flag.hungary:before { background-image: url(flags/hu.svg); }
+.bto-sb-flag.indonesia:before { background-image: url(flags/id.svg); }
+.bto-sb-flag.ireland:before, .bto-sb-flag.eire:before, .bto-sb-flag.éire:before { background-image: url(flags/ie.svg); }
+.bto-sb-flag.israel:before { background-image: url(flags/il.svg); }
+.bto-sb-flag.india:before, .bto-sb-flag.teneke:before { background-image: url(flags/in.svg); }
+.bto-sb-flag.indian.ocean.territory:before, .bto-sb-flag.indian-ocean-territory:before { background-image: url(flags/io.svg); }
+.bto-sb-flag.iraq:before { background-image: url(flags/iq.svg); }
+.bto-sb-flag.iran:before { background-image: url(flags/ir.svg); }
+.bto-sb-flag.iceland:before { background-image: url(flags/is.svg); }
+.bto-sb-flag.italy:before { background-image: url(flags/it.svg); }
+.bto-sb-flag.jamaica:before { background-image: url(flags/jm.svg); }
+.bto-sb-flag.jordan:before { background-image: url(flags/jo.svg); }
+.bto-sb-flag.japan:before { background-image: url(flags/jp.svg); }
+.bto-sb-flag.kenya:before { background-image: url(flags/ke.svg); }
+.bto-sb-flag.kyrgyzstan:before { background-image: url(flags/kg.svg); }
+.bto-sb-flag.cambodia:before { background-image: url(flags/kh.svg); }
+.bto-sb-flag.kiribati:before { background-image: url(flags/ki.svg); }
+.bto-sb-flag.comoros:before { background-image: url(flags/km.svg); }
+.bto-sb-flag.saint.kitts.and.nevis:before, .bto-sb-flag.saint-kitts-and-nevis:before { background-image: url(flags/kn.svg); }
+.bto-sb-flag.north.korea:before, .bto-sb-flag.north-korea:before { background-image: url(flags/kp.svg); }
+.bto-sb-flag.south.korea:before, .bto-sb-flag.republic.of.korea:before, .bto-sb-flag.republic-of-korea:before, .bto-sb-flag.south-korea:before, .bto-sb-flag.korea-republic:before { background-image: url(flags/kr.svg); }
+.bto-sb-flag.kuwait:before { background-image: url(flags/kw.svg); }
+.bto-sb-flag.cayman.islands:before, .bto-sb-flag.cayman-islands:before { background-image: url(flags/ky.svg); }
+.bto-sb-flag.kazakhstan:before { background-image: url(flags/kz.svg); }
+.bto-sb-flag.kosovo:before { background-image: url(flags/ko.svg); }
+.bto-sb-flag.laos:before { background-image: url(flags/la.svg); }
+.bto-sb-flag.lebanon:before { background-image: url(flags/lb.svg); }
+.bto-sb-flag.saint.lucia:before, .bto-sb-flag.saint-lucia:before { background-image: url(flags/lc.svg); }
+.bto-sb-flag.liechtenstein:before { background-image: url(flags/li.svg); }
+.bto-sb-flag.sr.lanka:before, .bto-sb-flag.sr-lanka:before { background-image: url(flags/lk.svg); }
+.bto-sb-flag.liberia:before { background-image: url(flags/lr.svg); }
+.bto-sb-flag.lesotho:before { background-image: url(flags/ls.svg); }
+.bto-sb-flag.lithuania:before { background-image: url(flags/lt.svg); }
+.bto-sb-flag.luxembourg:before { background-image: url(flags/lu.svg); }
+.bto-sb-flag.latvia:before { background-image: url(flags/lv.svg); }
+.bto-sb-flag.libya:before { background-image: url(flags/ly.svg); }
+.bto-sb-flag.morocco:before { background-image: url(flags/ma.svg); }
+.bto-sb-flag.monaco:before { background-image: url(flags/mc.svg); }
+.bto-sb-flag.moldova:before { background-image: url(flags/md.svg); }
+.bto-sb-flag.montenegro:before { background-image: url(flags/me.svg); }
+.bto-sb-flag.madagascar:before { background-image: url(flags/mg.svg); }
+.bto-sb-flag.marshall.islands:before, .bto-sb-flag.marshall-islands:before { background-image: url(flags/mh.svg); }
+.bto-sb-flag.macedonia:before { background-image: url(flags/mk.svg); }
+.bto-sb-flag.mali:before { background-image: url(flags/ml.svg); }
+.bto-sb-flag.burma:before, .bto-sb-flag.myanmar:before { background-image: url(flags/mm.svg); }
+.bto-sb-flag.mongolia:before { background-image: url(flags/mn.svg); }
+.bto-sb-flag.macau:before { background-image: url(flags/mo.svg); }
+.bto-sb-flag.northern.mariana.islands:before, .bto-sb-flag.northern-mariana-islands:before { background-image: url(flags/mp.svg); }
+.bto-sb-flag.martinique:before { background-image: url(flags/mq.svg); }
+.bto-sb-flag.mauritania:before { background-image: url(flags/mr.svg); }
+.bto-sb-flag.montserrat:before { background-image: url(flags/ms.svg); }
+.bto-sb-flag.malta:before { background-image: url(flags/mt.svg); }
+.bto-sb-flag.mauritius:before { background-image: url(flags/mu.svg); }
+.bto-sb-flag.males:before { background-image: url(flags/mv.svg); }
+.bto-sb-flag.malawi:before { background-image: url(flags/mw.svg); }
+.bto-sb-flag.mexico:before { background-image: url(flags/mx.svg); }
+.bto-sb-flag.malaysia:before { background-image: url(flags/my.svg); }
+.bto-sb-flag.mozambique:before { background-image: url(flags/mz.svg); }
+.bto-sb-flag.namibia:before { background-image: url(flags/na.svg); }
+.bto-sb-flag.new.caledonia:before { background-image: url(flags/nc.svg); }
+.bto-sb-flag.niger:before { background-image: url(flags/ne.svg); }
+.bto-sb-flag.norfolk.island:before { background-image: url(flags/nf.svg); }
+.bto-sb-flag.nigeria:before { background-image: url(flags/ng.svg); }
+.bto-sb-flag.nicaragua:before { background-image: url(flags/ni.svg); }
+.bto-sb-flag.netherlands:before, .bto-sb-flag.holland:before { background-image: url(flags/nl.svg); }
+.bto-sb-flag.netherlands.antilles:before { background-image: url(flags/an.svg); }
+.bto-sb-flag.norway:before, .bto-sb-flag.norway-amateur:before { background-image: url(flags/no.svg); }
+.bto-sb-flag.nepal:before { background-image: url(flags/np.svg); }
+.bto-sb-flag.nauru:before { background-image: url(flags/nr.svg); }
+.bto-sb-flag.niue:before { background-image: url(flags/nu.svg); }
+.bto-sb-flag.new.zealand:before, .bto-sb-flag.new-zealand:before { background-image: url(flags/nz.svg); }
+.bto-sb-flag.oman:before { background-image: url(flags/om.svg); }
+.bto-sb-flag.panama:before { background-image: url(flags/pa.svg); }
+.bto-sb-flag.peru:before { background-image: url(flags/pe.svg); }
+.bto-sb-flag.french.polynesia:before, .bto-sb-flag.french-polynesia:before { background-image: url(flags/pf.svg); }
+.bto-sb-flag.new.guinea:before { background-image: url(flags/pg.svg); }
+.bto-sb-flag.philippines:before { background-image: url(flags/ph.svg); }
+.bto-sb-flag.pakistan:before { background-image: url(flags/pk.svg); }
+.bto-sb-flag.poland:before { background-image: url(flags/pl.svg); }
+.bto-sb-flag.saint.pierre:before { background-image: url(flags/pm.svg); }
+.bto-sb-flag.pitcairn.islands:before, .bto-sb-flag.pitcairn-islands:before { background-image: url(flags/pn.svg); }
+.bto-sb-flag.puerto.rico:before, .bto-sb-flag.puerto-rico:before { background-image: url(flags/pr.svg); }
+.bto-sb-flag.palestine:before { background-image: url(flags/ps.svg); }
+.bto-sb-flag.portugal:before { background-image: url(flags/pt.svg); }
+.bto-sb-flag.palau:before { background-image: url(flags/pw.svg); }
+.bto-sb-flag.paraguay:before { background-image: url(flags/py.svg); }
+.bto-sb-flag.qatar:before { background-image: url(flags/qa.svg); }
+.bto-sb-flag.reunion:before { background-image: url(flags/re.svg); }
+.bto-sb-flag.romania:before { background-image: url(flags/ro.svg); }
+.bto-sb-flag.serbia:before { background-image: url(flags/rs.svg); }
+.bto-sb-flag.russia:before { background-image: url(flags/ru.svg); }
+.bto-sb-flag.rwanda:before { background-image: url(flags/rw.svg); }
+.bto-sb-flag.saudi:before, .bto-sb-flag.saudi-arabia:before { background-image: url(flags/sa.svg); }
+.bto-sb-flag.solomon.islands:before ,.bto-sb-flag.solomon-islands:before { background-image: url(flags/sb.svg); }
+.bto-sb-flag.seychelles:before { background-image: url(flags/sc.svg); }
+.bto-sb-flag.sudan:before { background-image: url(flags/sd.svg); }
+.bto-sb-flag.sweden:before, .bto-sb-flag.swe:before, .bto-sb-flag.sweden-amateur:before { background-image: url(flags/se.svg); }
+.bto-sb-flag.singapore:before { background-image: url(flags/sg.svg); }
+.bto-sb-flag.saint.helena:before { background-image: url(flags/sh.svg); }
+.bto-sb-flag.slovenia:before { background-image: url(flags/si.svg); }
+.bto-sb-flag.jan.mayen:before, .bto-sb-flag.svalbard:before { background-image: url(flags/sj.svg); }
+.bto-sb-flag.slovakia:before { background-image: url(flags/sk.svg); }
+.bto-sb-flag.sierra.leone:before, .bto-sb-flag.sierra-leone:before { background-image: url(flags/sl.svg); }
+.bto-sb-flag.san.marino:before, .bto-sb-flag.san-marino:before { background-image: url(flags/sm.svg); }
+.bto-sb-flag.senegal:before { background-image: url(flags/sn.svg); }
+.bto-sb-flag.somalia:before { background-image: url(flags/so.svg); }
+.bto-sb-flag.suriname:before { background-image: url(flags/sr.svg); }
+.bto-sb-flag.sao.tome:before, .bto-sb-flag.sao-tome:before { background-image: url(flags/st.svg); }
+.bto-sb-flag.el.salvador:before ,.bto-sb-flag.el-salvador:before { background-image: url(flags/sv.svg); }
+.bto-sb-flag.syria:before { background-image: url(flags/sy.svg); }
+.bto-sb-flag.swaziland:before { background-image: url(flags/sz.svg); }
+.bto-sb-flag.caicos.islands:before, .bto-sb-flag.caicos-islands:before { background-image: url(flags/tc.svg); }
+.bto-sb-flag.chad:before { background-image: url(flags/td.svg); }
+.bto-sb-flag.french.territories:before, .bto-sb-flag.french-territories:before { background-image: url(flags/tf.svg); }
+.bto-sb-flag.togo:before { background-image: url(flags/tg.svg); }
+.bto-sb-flag.thailand:before { background-image: url(flags/th.svg); }
+.bto-sb-flag.tajikistan:before { background-image: url(flags/tj.svg); }
+.bto-sb-flag.tokelau:before { background-image: url(flags/tk.svg); }
+.bto-sb-flag.timorleste:before { background-image: url(flags/tl.svg); }
+.bto-sb-flag.turkmenistan:before { background-image: url(flags/tm.svg); }
+.bto-sb-flag.tunisia:before { background-image: url(flags/tn.svg); }
+.bto-sb-flag.tonga:before { background-image: url(flags/to.svg); }
+.bto-sb-flag.turkey:before, .bto-sb-flag.turkey-amateur:before { background-image: url(flags/tr.svg); }
+.bto-sb-flag.trinidad:before { background-image: url(flags/tt.svg); }
+.bto-sb-flag.tuvalu:before { background-image: url(flags/tv.svg); }
+.bto-sb-flag.taiwan:before { background-image: url(flags/tw.svg); }
+.bto-sb-flag.tanzania:before { background-image: url(flags/tz.svg); }
+.bto-sb-flag.ukraine:before { background-image: url(flags/ua.svg); }
+.bto-sb-flag.uganda:before { background-image: url(flags/ug.svg); }
+.bto-sb-flag.us.minor.islands:before, .bto-sb-flag.us-minor-islands:before { background-image: url(flags/um.svg); }
+.bto-sb-flag.international:before, .bto-sb-flag.international-youth:before, .bto-sb-flag.international-clubs:before, .bto-sb-flag.international-women:before, .bto-sb-flag.international-men:before { background-image: url(flags/un.svg); }
+.bto-sb-flag.usa:before, .bto-sb-flag.united-states:before { background-image: url(flags/us.svg); }
+.bto-sb-flag.uruguay:before { background-image: url(flags/uy.svg); }
+.bto-sb-flag.uzbekistan:before { background-image: url(flags/uz.svg); }
+.bto-sb-flag.vatican.city:before, .bto-sb-flag.vatican-city:before { background-image: url(flags/va.svg); }
+.bto-sb-flag.saint.vincent:before, .bto-sb-flag.saint-vincent:before { background-image: url(flags/vc.svg); }
+.bto-sb-flag.venezuela:before { background-image: url(flags/ve.svg); }
+.bto-sb-flag.british.virgin.islands:before, .bto-sb-flag.british-virgin-islands:before { background-image: url(flags/vg.svg); }
+.bto-sb-flag.us.virgin.islands:before, .bto-sb-flag.us-virgin-islands:before { background-image: url(flags/vi.svg); }
+.bto-sb-flag.vietnam:before { background-image: url(flags/vn.svg); }
+.bto-sb-flag.vanuatu:before { background-image: url(flags/vu.svg); }
+.bto-sb-flag.wallis.and.futuna:before, .bto-sb-flag.wallis-and-futuna:before { background-image: url(flags/wf.svg); }
+.bto-sb-flag.samoa:before { background-image: url(flags/ws.svg); }
+.bto-sb-flag.yemen:before { background-image: url(flags/ye.svg); }
+.bto-sb-flag.mayotte:before { background-image: url(flags/yt.svg); }
+.bto-sb-flag.south.africa:before, .bto-sb-flag.south-africa:before { background-image: url(flags/za.svg); }
+.bto-sb-flag.zambia:before { background-image: url(flags/zm.svg); }
+.bto-sb-flag.zimbabwe:before { background-image: url(flags/zw.svg); }
+.bto-sb-flag.england:before, .bto-sb-flag.england-amateur:before { background-image: url(flags/gb-eng.svg); }
+.bto-sb-flag.scotland:before { background-image: url(flags/gb-sct.svg); }
+.bto-sb-flag.wales:before { background-image: url(flags/gb-wls.svg); }
+.bto-sb-flag.northern:before, .bto-sb-flag.northern-ireland:before { background-image: url(flags/gb-nir.svg); }
+.bto-sb-flag.uefa:before { background-image: url(flags/uefa.svg); }
+.bto-sb-flag.leagues:before { background-image: url(flags/leagues.svg); }
+.bto-sb-flag.rugby:before, .bto-sb-flag.rugby-union-sevens:before, .bto-sb-flag.rugby-league:before, .bto-sb-flag.rugby-union:before { background-image: url(flags/rugby.svg); }
+.bto-sb-flag.atp:before { background-image: url(flags/atp.svg); }
+.bto-sb-flag.itf:before, .bto-sb-flag.itf-men:before, .bto-sb-flag.itf-women:before { background-image: url(flags/itf.svg); }
+.bto-sb-flag.wta:before, .bto-sb-flag.wta-125k:before  { background-image: url(flags/wta.svg); }
+.bto-sb-flag.challenge:before, .bto-sb-flag.challenger:before { background-image: url(flags/challenge.svg); }
+.bto-sb-flag.hopman-cup:before { background-image: url(flags/hopman-cup.svg); }
+.bto-sb-flag.juniors:before, .bto-sb-flag.legends:before, .bto-sb-flag.wheelchairs:before, .bto-sb-flag.iptl:before, .bto-sb-flag.tennis:before { background-image: url(flags/tennis.svg); }
+.bto-sb-flag.fed-cup:before, .bto-sb-flag.federation-cup:before { background-image: url(flags/fed-cup.svg); }
+.bto-sb-flag.davis-cup:before { background-image: url(flags/daviscup.svg); }
+.bto-sb-flag.exhibition:before { background-image: url(flags/exhibition.svg); }
+.bto-sb-flag.men:before { background-image: url(flags/golf-men.svg); }
+.bto-sb-flag.women:before, .bto-sb-flag.woman:before { background-image: url(flags/golf-women.svg); }
+.bto-sb-flag.moto-category:before, .bto-sb-flag.dtm:before, .bto-sb-flag.speedway:before, .bto-sb-flag.bikes:before, .bto-sb-flag.rally:before { background-image: url(flags/moto-category.svg); }
+.bto-sb-flag.formula:before, .bto-sb-flag.formula-1:before { background-image: url(flags/formula.svg); }
+.bto-sb-flag.nascar:before { background-image: url(flags/nascar.svg); }
+.bto-sb-flag.indycar:before { background-image: url(flags/indycar.svg); }
+.bto-sb-flag.politics:before { background-image: url(flags/politics.svg); }
+.bto-sb-flag.music:before { background-image: url(flags/music.svg); }
+.bto-sb-flag.entertainment:before { background-image: url(flags/entertainment.svg); }
+.bto-sb-flag.virtual-football:before, .bto-sb-flag.virtual-leagues:before { background-image: url(flags/v-football.svg); }
+.bto-sb-flag.virtual-basketball:before { background-image: url(flags/v-basketball.svg); } 
+.bto-sb-flag.virtual-tennis:before, .bto-sb-flag.virtual-tennis-open:before { background-image: url(flags/v-tennis.svg); } 
+.bto-sb-flag.virtual-horses:before { background-image: url(flags/v-horse.svg); }
+.bto-sb-flag.virtual-dogs:before { background-image: url(flags/v-dog.svg); }
+.bto-sb-flag.acb:before, .bto-sb-flag.bamma:before, .bto-sb-flag.cage-warriors:before, .bto-sb-flag.pfl:before, .bto-sb-flag.titan-fc:before, .bto-sb-flag.euro-fc:before, .bto-sb-flag.invicta-fc:before, .bto-sb-flag.cage:before, .bto-sb-flag.ufc:before, .bto-sb-flag.bellator:before, .bto-sb-flag.one-fc:before, .bto-sb-flag.rizin-ff:before, .bto-sb-flag.ksw:before { background-image: url(flags/mma.svg); } 
+.bto-sb-flag.faceit-cs-go:before, .bto-sb-flag.cevo-cs-go:before, .bto-sb-flag.cga-cs-go:before, .bto-sb-flag.hellcase-cs-go:before, .bto-sb-flag.binary-dragon-cs-go:before, .bto-sb-flag.bts-cs-go:before, .bto-sb-flag.mettlestate-cs-go:before, .bto-sb-flag.subaru-cs-go:before, .bto-sb-flag.htc-cs-go:before, .bto-sb-flag.rog-cs-go:before, .bto-sb-flag.sostronk-cs-go:before, .bto-sb-flag.xlg-cs-go:before, .bto-sb-flag.wca-cs-go:before, .bto-sb-flag.uk-masters-cs-go:before, .bto-sb-flag.china-cs-go:before, .bto-sb-flag.zowie-cs-go:before, .bto-sb-flag.e-frag-cs-go:before, .bto-sb-flag.wesg-cs-go:before, .bto-sb-flag.leagueofsharks-cs-go:before, .bto-sb-flag.ibuypower-cs-go:before, .bto-sb-flag.pgl-cs-go:before, .bto-sb-flag.turner-cs-go:before, .bto-sb-flag.nea-cs-go:before, .bto-sb-flag.power-lan-cs-go:before, .bto-sb-flag.esea-cs-go:before, .bto-sb-flag.northern-arena-cs-go:before, .bto-sb-flag.gfinity-cs-go:before, .bto-sb-flag.adrenaline-cs-go:before, .bto-sb-flag.starladder-cs-go:before, .bto-sb-flag.betradar-cs-go:before, .bto-sb-flag.dreamhack-cs-go:before, .bto-sb-flag.assembly-cs-go:before, .bto-sb-flag.eleague-cs-go:before, .bto-sb-flag.mlg-cs-go:before, .bto-sb-flag.esl-cs-go:before { background-image: url(flags/esport-cs.svg); } 
+.bto-sb-flag.riot-lol:before, .bto-sb-flag.esl-lol:before, .bto-sb-flag.tencent-lol:before, .bto-sb-flag.kespa-lol:before, .bto-sb-flag.demacia-lol:before, .bto-sb-flag.nest-lol:before { background-image: url(flags/esport-legends.svg); }
+.bto-sb-flag.moonduck-dota2:before, .bto-sb-flag.wesg-dota2:before, .bto-sb-flag.wellplay-dota2:before, .bto-sb-flag.dota-pit-dota2:before, .bto-sb-flag.rog-dota2:before, .bto-sb-flag.northern-arena-dota2:before, .bto-sb-flag.wca-dota2:before, .bto-sb-flag.bts-dota2:before, .bto-sb-flag.pro-gamer-dota2:before, .bto-sb-flag.epg-dota2:before, .bto-sb-flag.mpgl-dota2:before, .bto-sb-flag.faceit-dota2:before, .bto-sb-flag.royal-arena-dota2:before, .bto-sb-flag.marstv-dota2:before, .bto-sb-flag.dreamhack-dota2:before, .bto-sb-flag.epic-dota2:before, .bto-sb-flag.keytv-dota2:before, .bto-sb-flag.prodota-dota2:before, .bto-sb-flag.fight-night-dota2:before, .bto-sb-flag.perfect-world-dota2:before, .bto-sb-flag.starladder-dota2:before, 
+.bto-sb-flag.neso-dota2:before, .bto-sb-flag.valve-dota2:before, .bto-sb-flag.esl-dota2:before, .bto-sb-flag.china-dota2:before, .bto-sb-flag.met-dota2:before, .bto-sb-flag.resf-dota2:before, .bto-sb-flag.joindota-dota2:before, .bto-sb-flag.zotac-dota2:before { background-image: url(flags/esport-dota.svg); }
+.bto-sb-flag.kespa-sc2:before, .bto-sb-flag.spotv-sc:before, .bto-sb-flag.spotv-sc2:before, .bto-sb-flag.dreamhack-sc2:before, .bto-sb-flag.taketv-sc2:before, .bto-sb-flag.afreeca-sc:before, .bto-sb-flag.wca-sc2:before, .bto-sb-flag.versus-sc2:before, .bto-sb-flag.gsl-sc2:before, .bto-sb-flag.blizzard-sc2:before, .bto-sb-flag.esl-sc2 { background-image: url(flags/esport-starcraft.svg); }
+.bto-sb-flag.ski-jumping:before, .bto-sb-flag.nordic-combined:before, .bto-sb-flag.ski-jumping-mixed:before, .bto-sb-flag.ski-jumping-women:before,.bto-sb-flag.parallel-mixed-team:before, .bto-sb-flag.slalom-women:before, .bto-sb-flag.downhill:before, .bto-sb-flag.giant-slalom-women:before, .bto-sb-flag.super-g:before, .bto-sb-flag.giant-slalom:before, .bto-sb-flag.downhill-women:before, .bto-sb-flag.super-g-women:before, .bto-sb-flag.overall:before, .bto-sb-flag.overall-women:before, .bto-sb-flag.alpine-combined:before, .bto-sb-flag.slalom:before, .bto-sb-flag.alpine-combined-women:before, .bto-sb-flag.parallel-city-events:before, .bto-sb-flag.parallel-city-events-women:before, .bto-sb-flag.relay-mixed:before, .bto-sb-flag.individual-women:before, .bto-sb-flag.individual:before, .bto-sb-flag.sprint-women:before, .bto-sb-flag.sprint:before, .bto-sb-flag.pursuit-women:before, .bto-sb-flag.pursuit:before, .bto-sb-flag.relay-women:before, .bto-sb-flag.overall-women:before, .bto-sb-flag.relay:before, .bto-sb-flag.mass-start:before, .bto-sb-flag.mass-start-women:before, .bto-sb-flag.sprint:before, .bto-sb-flag.sprint-women:before, .bto-sb-flag.distance:before, .bto-sb-flag.distance-women:before, .bto-sb-flag.team-women:before, .bto-sb-flag.team:before, .bto-sb-flag.alpine-men:before, .bto-sb-flag.alpine-women:before, .bto-sb-flag.biathlon-men:before, .bto-sb-flag.biathlon-women:before  { background-image: url(flags/wintersports.svg); }
+.bto-sb-flag.equestrian:before, .bto-sb-flag.modern-pentathlon:before { background-image: url(flags/equestrian.svg); }
+.bto-sb-flag.weightlifting:before { background-image: url(flags/weightlifting.svg); }
+.bto-sb-flag.diving:before { background-image: url(flags/diving.svg); }
+.bto-sb-flag.sailing:before { background-image: url(flags/sailing.svg); }
+.bto-sb-flag.golf:before { background-image: url(flags/golf.svg); }
+.bto-sb-flag.boxing:before { background-image: url(flags/boxing.svg); }
+.bto-sb-flag.specials:before { background-image: url(flags/specials.svg); }
+.bto-sb-flag.triathlon:before { background-image: url(flags/triathlon.svg); }
+.bto-sb-flag.athletics:before { background-image: url(flags/athletics.svg); }
+.bto-sb-flag.archery:before { background-image: url(flags/archery.svg); }
+.bto-sb-flag.table-tennis:before { background-image: url(flags/table-tennis.svg); }
+.bto-sb-flag.badminton:before { background-image: url(flags/badminton.svg); }
+.bto-sb-flag.swimming:before, .bto-sb-flag.marathon-swimming:before { background-image: url(flags/swimming.svg); }
+.bto-sb-flag.beach-volley:before { background-image: url(flags/beach-volley.svg); }
+.bto-sb-flag.cycling:before { background-image: url(flags/cycling.svg); }
+.bto-sb-flag.rowing:before, .bto-sb-flag.canoeing:before, .bto-sb-flag.canoekayak:before { background-image: url(flags/rowing.svg); }
+.bto-sb-flag.basketball:before, .bto-sb-flag.basketball-3x3:before { background-image: url(flags/basketball.svg); }
+.bto-sb-flag.field-hockey:before { background-image: url(flags/field-hockey.svg); }
+.bto-sb-flag.waterpolo:before { background-image: url(flags/waterpolo.svg); }
+.bto-sb-flag.soccer:before { background-image: url(flags/soccer.svg); }
+.bto-sb-flag.handball:before { background-image: url(flags/handball.svg); }
+.bto-sb-flag.volleyball:before { background-image: url(flags/volleyball.svg); }
+.bto-sb-flag.championship:before { background-image: url(flags/championship.svg); }
+.bto-sb-flag.group:before { background-image: url(flags/group.svg); }
+.bto-sb-flag.outright:before { background-image: url(flags/outrights.svg); }
+.bto-sb-flag.boost:before, .bto-sb-flag.odds-boost:before, .bto-sb-flag.odds-boosts:before { background-image: url(flags/boost.svg); }
+.bto-sb-flag.cash:before, .bto-sb-flag.cash-back:before, .bto-sb-flag.cash-back-boosts:before { background-image: url(flags/cash.svg); }
+.bto-sb-flag.fencing:before { background-image: url(flags/fencing.svg); }
+.bto-sb-flag.gymnastics:before { background-image: url(flags/gymnastics.svg); }
+.bto-sb-flag.judo:before { background-image: url(flags/judo.svg); }
+.bto-sb-flag.skateboarding:before { background-image: url(flags/skateboarding.svg); }
+.bto-sb-flag.surfing:before { background-image: url(flags/surfing.svg); }
+.bto-sb-flag.taekwondo:before { background-image: url(flags/taekwondo.svg); }
+.bto-sb-flag.triathlon:before { background-image: url(flags/triathlon.svg); }
+.bto-sb-flag.wrestling:before { background-image: url(flags/wrestling.svg); }
+.bto-sb-flag.baseball:before { background-image: url(flags/baseball.svg); }
+
+/*-----------------------------------------------
+	#Mobile Category Flags
+-----------------------------------------------*/
+.bto-sb-mb-category-flag { position: absolute; left: 0; top: 0; width: 35px; height: 100%; text-align: center; }
+.bto-sb-mb-category-flag:before { content: "" !important; position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 16px; height: 12px; margin: auto; background-position: center center; background-repeat: no-repeat; background-size: cover; box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.15); background-image: url(flags/noicon.svg); }
+.bto-sb-mb-category-flag-oval:before { width: 16px; height: 16px; border-radius: 50%; }
+.bto-sb-mb-category-flag-rect:before { width: 16px; height: 16px; }
+.bto-sb-mb-category-flag.noicon:before { background-image: url(flags/noicon.svg); }
+.bto-sb-mb-category-flag.andorra:before { background-image: url(flags/ad.svg); }
+.bto-sb-mb-category-flag.uae:before, .bto-sb-mb-category-flag.united.arab.emirates:before, .bto-sb-mb-category-flag.united-arab-emirates:before { background-image: url(flags/ae.svg); }
+.bto-sb-mb-category-flag.afghanistan:before { background-image: url(flags/af.svg); }
+.bto-sb-mb-category-flag.antigua:before, .bto-sb-mb-category-flag.antigua-and-barbuda:before { background-image: url(flags/ag.svg); }
+.bto-sb-mb-category-flag.anguilla:before { background-image: url(flags/ai.svg); }
+.bto-sb-mb-category-flag.albania:before { background-image: url(flags/al.svg); }
+.bto-sb-mb-category-flag.armenia:before { background-image: url(flags/am.svg); }
+.bto-sb-mb-category-flag.angola:before { background-image: url(flags/ao.svg); }
+.bto-sb-mb-category-flag.argentina:before { background-image: url(flags/ar.svg); }
+.bto-sb-mb-category-flag.american.samoa:before, .bto-sb-mb-category-flag.american-samoa:before { background-image: url(flags/as.svg); }
+.bto-sb-mb-category-flag.austria:before, .bto-sb-mb-category-flag.austria-amateur:before { background-image: url(flags/at.svg); }
+.bto-sb-mb-category-flag.australia:before { background-image: url(flags/au.svg); }
+.bto-sb-mb-category-flag.aruba:before { background-image: url(flags/aw.svg); }
+.bto-sb-mb-category-flag.aland.islands:before, .bto-sb-mb-category-flag.aland-islands:before { background-image: url(flags/ax.svg); }
+.bto-sb-mb-category-flag.azerbaijan:before { background-image: url(flags/az.svg); }
+.bto-sb-mb-category-flag.bosnia:before, .bto-sb-mb-category-flag.bosnia-herzegovina:before, .bto-sb-mb-category-flag.bosnia-herz:before { background-image: url(flags/ba.svg); }
+.bto-sb-mb-category-flag.barbados:before { background-image: url(flags/bb.svg); }
+.bto-sb-mb-category-flag.bangladesh:before { background-image: url(flags/bd.svg); }
+.bto-sb-mb-category-flag.belgium:before { background-image: url(flags/be.svg); }
+.bto-sb-mb-category-flag.burkina.faso:before, .bto-sb-mb-category-flag.burkina-faso:before { background-image: url(flags/bf.svg); }
+.bto-sb-mb-category-flag.bulgaria:before { background-image: url(flags/bg.svg); }
+.bto-sb-mb-category-flag.bahrain:before { background-image: url(flags/bh.svg); }
+.bto-sb-mb-category-flag.burundi:before { background-image: url(flags/bi.svg); }
+.bto-sb-mb-category-flag.benin:before { background-image: url(flags/bj.svg); }
+.bto-sb-mb-category-flag.bermuda:before { background-image: url(flags/bm.svg); }
+.bto-sb-mb-category-flag.brunei:before { background-image: url(flags/bn.svg); }
+.bto-sb-mb-category-flag.bolivia:before { background-image: url(flags/bo.svg); }
+.bto-sb-mb-category-flag.brazil:before { background-image: url(flags/br.svg); }
+.bto-sb-mb-category-flag.bahamas:before { background-image: url(flags/bs.svg); }
+.bto-sb-mb-category-flag.bhutan:before { background-image: url(flags/bt.svg); }
+.bto-sb-mb-category-flag.bouvet.island:before, .bto-sb-mb-category-flag.bouvet-island:before { background-image: url(flags/bv.svg); }
+.bto-sb-mb-category-flag.botswana:before { background-image: url(flags/bw.svg); }
+.bto-sb-mb-category-flag.belarus:before { background-image: url(flags/by.svg); }
+.bto-sb-mb-category-flag.belize:before { background-image: url(flags/bz.svg); }
+.bto-sb-mb-category-flag.canada:before { background-image: url(flags/ca.svg); }
+.bto-sb-mb-category-flag.cocos.islands:before, .bto-sb-mb-category-flag.cocos-islands:before { background-image: url(flags/cc.svg); }
+.bto-sb-mb-category-flag.congo:before { background-image: url(flags/cd.svg); }
+.bto-sb-mb-category-flag.central.african.republic:before, .bto-sb-mb-category-flag.central-african-republic:before { background-image: url(flags/cf.svg); }
+.bto-sb-mb-category-flag.congo.brazzaville:before, .bto-sb-mb-category-flag.congo-brazzaville:before { background-image: url(flags/cg.svg); }
+.bto-sb-mb-category-flag.switzerland:before { background-image: url(flags/ch.svg); }
+.bto-sb-mb-category-flag.cote.oire:before, .bto-sb-mb-category-flag.ivory-coast:before { background-image: url(flags/ci.svg); }
+.bto-sb-mb-category-flag.cook.islands:before, .bto-sb-mb-category-flag.cook-islands:before { background-image: url(flags/ck.svg); }
+.bto-sb-mb-category-flag.chile:before { background-image: url(flags/cl.svg); }
+.bto-sb-mb-category-flag.cameroon:before { background-image: url(flags/cm.svg); }
+.bto-sb-mb-category-flag.china:before { background-image: url(flags/cn.svg); }
+.bto-sb-mb-category-flag.colombia:before { background-image: url(flags/co.svg); }
+.bto-sb-mb-category-flag.costa.rica:before, .bto-sb-mb-category-flag.costa-rica:before { background-image: url(flags/cr.svg); }
+.bto-sb-mb-category-flag.cuba:before { background-image: url(flags/cu.svg); }
+.bto-sb-mb-category-flag.cape.verde:before { background-image: url(flags/cv.svg); }
+.bto-sb-mb-category-flag.christmas.island:before, .bto-sb-mb-category-flag.christmas-island:before { background-image: url(flags/cx.svg); }
+.bto-sb-mb-category-flag.cyprus:before { background-image: url(flags/cy.svg); }
+.bto-sb-mb-category-flag.czech:before, .bto-sb-mb-category-flag.czech-republic:before { background-image: url(flags/cz.svg); }
+.bto-sb-mb-category-flag.germany:before, .bto-sb-mb-category-flag.germany-amateur:before { background-image: url(flags/de.svg); }
+.bto-sb-mb-category-flag.djibouti:before { background-image: url(flags/dj.svg); }
+.bto-sb-mb-category-flag.denmark:before, .bto-sb-mb-category-flag.denmark-amateur:before { background-image: url(flags/dk.svg); }
+.bto-sb-mb-category-flag.dominica:before { background-image: url(flags/dm.svg); }
+.bto-sb-mb-category-flag.dominican.republic:before, .bto-sb-mb-category-flag.dominican-republic:before { background-image: url(flags/do.svg); }
+.bto-sb-mb-category-flag.algeria:before { background-image: url(flags/dz.svg); }
+.bto-sb-mb-category-flag.ecuador:before { background-image: url(flags/ec.svg); }
+.bto-sb-mb-category-flag.estonia:before { background-image: url(flags/ee.svg); }
+.bto-sb-mb-category-flag.egypt:before { background-image: url(flags/eg.svg); }
+.bto-sb-mb-category-flag.western.sahara:before, .bto-sb-mb-category-flag.western-sahara:before { background-image: url(flags/eh.svg); }
+.bto-sb-mb-category-flag.eritrea:before { background-image: url(flags/er.svg); }
+.bto-sb-mb-category-flag.spain:before, .bto-sb-mb-category-flag.spain-amateur:before { background-image: url(flags/es.svg); }
+.bto-sb-mb-category-flag.ethiopia:before { background-image: url(flags/et.svg); }
+.bto-sb-mb-category-flag.european.union:before, .bto-sb-mb-category-flag.european-union:before { background-image: url(flags/eu.svg); }
+.bto-sb-mb-category-flag.finland:before, .bto-sb-mb-category-flag.finland-amateur:before { background-image: url(flags/fi.svg); }
+.bto-sb-mb-category-flag.fiji:before { background-image: url(flags/fj.svg); }
+.bto-sb-mb-category-flag.falkland.islands:before, .bto-sb-mb-category-flag.falkland-islands:before { background-image: url(flags/fk.svg); }
+.bto-sb-mb-category-flag.micronesia:before { background-image: url(flags/fm.svg); }
+.bto-sb-mb-category-flag.faroe.islands:before, .bto-sb-mb-category-flag.faroe-islands:before { background-image: url(flags/fo.svg); }
+.bto-sb-mb-category-flag.france:before { background-image: url(flags/fr.svg); }
+.bto-sb-mb-category-flag.gabon:before { background-image: url(flags/ga.svg); }
+.bto-sb-mb-category-flag.united.kingdom:before, .bto-sb-mb-category-flag.united-kingdom:before, .bto-sb-mb-category-flag.great-britain { background-image: url(flags/gb.svg); }
+.bto-sb-mb-category-flag.grenada:before { background-image: url(flags/gd.svg); }
+.bto-sb-mb-category-flag.georgia:before { background-image: url(flags/ge.svg); }
+.bto-sb-mb-category-flag.french.guiana:before, .bto-sb-mb-category-flag.french-guiana:before { background-image: url(flags/gf.svg); }
+.bto-sb-mb-category-flag.ghana:before { background-image: url(flags/gh.svg); }
+.bto-sb-mb-category-flag.gibraltar:before { background-image: url(flags/gi.svg); }
+.bto-sb-mb-category-flag.greenland:before { background-image: url(flags/gl.svg); }
+.bto-sb-mb-category-flag.gambia:before { background-image: url(flags/gm.svg); }
+.bto-sb-mb-category-flag.guinea:before { background-image: url(flags/gn.svg); }
+.bto-sb-mb-category-flag.guadeloupe:before { background-image: url(flags/gp.svg); }
+.bto-sb-mb-category-flag.equatorial.guinea:before, .bto-sb-mb-category-flag.equatorial-guinea:before { background-image: url(flags/gq.svg); }
+.bto-sb-mb-category-flag.greece:before { background-image: url(flags/gr.svg); }
+.bto-sb-mb-category-flag.sandwich.islands:before, .bto-sb-mb-category-flag.sandwich-islands:before { background-image: url(flags/gs.svg); }
+.bto-sb-mb-category-flag.guatemala:before { background-image: url(flags/gt.svg); }
+.bto-sb-mb-category-flag.guam:before { background-image: url(flags/gu.svg); }
+.bto-sb-mb-category-flag.guinea-bissau:before { background-image: url(flags/gw.svg); }
+.bto-sb-mb-category-flag.guyana:before { background-image: url(flags/gy.svg); }
+.bto-sb-mb-category-flag.hong.kong:before, .bto-sb-mb-category-flag.hong-kong:before { background-image: url(flags/hk.svg); }
+.bto-sb-mb-category-flag.heard.island:before, .bto-sb-mb-category-flag.heard-island:before { background-image: url(flags/hm.svg); }
+.bto-sb-mb-category-flag.honduras:before { background-image: url(flags/hn.svg); }
+.bto-sb-mb-category-flag.croatia:before { background-image: url(flags/hr.svg); }
+.bto-sb-mb-category-flag.haiti:before { background-image: url(flags/ht.svg); }
+.bto-sb-mb-category-flag.hungary:before { background-image: url(flags/hu.svg); }
+.bto-sb-mb-category-flag.indonesia:before { background-image: url(flags/id.svg); }
+.bto-sb-mb-category-flag.ireland:before { background-image: url(flags/ie.svg); }
+.bto-sb-mb-category-flag.israel:before { background-image: url(flags/il.svg); }
+.bto-sb-mb-category-flag.india:before, .bto-sb-mb-category-flag.teneke:before { background-image: url(flags/in.svg); }
+.bto-sb-mb-category-flag.indian.ocean.territory:before, .bto-sb-mb-category-flag.indian-ocean-territory:before { background-image: url(flags/io.svg); }
+.bto-sb-mb-category-flag.iraq:before { background-image: url(flags/iq.svg); }
+.bto-sb-mb-category-flag.iran:before { background-image: url(flags/ir.svg); }
+.bto-sb-mb-category-flag.iceland:before { background-image: url(flags/is.svg); }
+.bto-sb-mb-category-flag.italy:before { background-image: url(flags/it.svg); }
+.bto-sb-mb-category-flag.jamaica:before { background-image: url(flags/jm.svg); }
+.bto-sb-mb-category-flag.jordan:before { background-image: url(flags/jo.svg); }
+.bto-sb-mb-category-flag.japan:before { background-image: url(flags/jp.svg); }
+.bto-sb-mb-category-flag.kenya:before { background-image: url(flags/ke.svg); }
+.bto-sb-mb-category-flag.kyrgyzstan:before { background-image: url(flags/kg.svg); }
+.bto-sb-mb-category-flag.cambodia:before { background-image: url(flags/kh.svg); }
+.bto-sb-mb-category-flag.kiribati:before { background-image: url(flags/ki.svg); }
+.bto-sb-mb-category-flag.comoros:before { background-image: url(flags/km.svg); }
+.bto-sb-mb-category-flag.saint.kitts.and.nevis:before, .bto-sb-mb-category-flag.saint-kitts-and-nevis:before { background-image: url(flags/kn.svg); }
+.bto-sb-mb-category-flag.north.korea:before, .bto-sb-mb-category-flag.north-korea:before { background-image: url(flags/kp.svg); }
+.bto-sb-mb-category-flag.south.korea:before, .bto-sb-mb-category-flag.republic.of.korea:before, .bto-sb-mb-category-flag.republic-of-korea:before, .bto-sb-mb-category-flag.south-korea:before, .bto-sb-mb-category-flag.korea-republic:before { background-image: url(flags/kr.svg); }
+.bto-sb-mb-category-flag.kuwait:before { background-image: url(flags/kw.svg); }
+.bto-sb-mb-category-flag.cayman.islands:before, .bto-sb-mb-category-flag.cayman-islands:before { background-image: url(flags/ky.svg); }
+.bto-sb-mb-category-flag.kazakhstan:before { background-image: url(flags/kz.svg); }
+.bto-sb-mb-category-flag.kosovo:before { background-image: url(flags/ko.svg); }
+.bto-sb-mb-category-flag.laos:before { background-image: url(flags/la.svg); }
+.bto-sb-mb-category-flag.lebanon:before { background-image: url(flags/lb.svg); }
+.bto-sb-mb-category-flag.saint.lucia:before, .bto-sb-mb-category-flag.saint-lucia:before { background-image: url(flags/lc.svg); }
+.bto-sb-mb-category-flag.liechtenstein:before { background-image: url(flags/li.svg); }
+.bto-sb-mb-category-flag.sr.lanka:before, .bto-sb-mb-category-flag.sr-lanka:before { background-image: url(flags/lk.svg); }
+.bto-sb-mb-category-flag.liberia:before { background-image: url(flags/lr.svg); }
+.bto-sb-mb-category-flag.lesotho:before { background-image: url(flags/ls.svg); }
+.bto-sb-mb-category-flag.lithuania:before { background-image: url(flags/lt.svg); }
+.bto-sb-mb-category-flag.luxembourg:before { background-image: url(flags/lu.svg); }
+.bto-sb-mb-category-flag.latvia:before { background-image: url(flags/lv.svg); }
+.bto-sb-mb-category-flag.libya:before { background-image: url(flags/ly.svg); }
+.bto-sb-mb-category-flag.morocco:before { background-image: url(flags/ma.svg); }
+.bto-sb-mb-category-flag.monaco:before { background-image: url(flags/mc.svg); }
+.bto-sb-mb-category-flag.moldova:before { background-image: url(flags/md.svg); }
+.bto-sb-mb-category-flag.montenegro:before { background-image: url(flags/me.svg); }
+.bto-sb-mb-category-flag.madagascar:before { background-image: url(flags/mg.svg); }
+.bto-sb-mb-category-flag.marshall.islands:before, .bto-sb-mb-category-flag.marshall-islands:before { background-image: url(flags/mh.svg); }
+.bto-sb-mb-category-flag.macedonia:before { background-image: url(flags/mk.svg); }
+.bto-sb-mb-category-flag.mali:before { background-image: url(flags/ml.svg); }
+.bto-sb-mb-category-flag.burma:before, .bto-sb-mb-category-flag.myanmar:before { background-image: url(flags/mm.svg); }
+.bto-sb-mb-category-flag.mongolia:before { background-image: url(flags/mn.svg); }
+.bto-sb-mb-category-flag.macau:before { background-image: url(flags/mo.svg); }
+.bto-sb-mb-category-flag.northern.mariana.islands:before, .bto-sb-mb-category-flag.northern-mariana-islands:before { background-image: url(flags/mp.svg); }
+.bto-sb-mb-category-flag.martinique:before { background-image: url(flags/mq.svg); }
+.bto-sb-mb-category-flag.mauritania:before { background-image: url(flags/mr.svg); }
+.bto-sb-mb-category-flag.montserrat:before { background-image: url(flags/ms.svg); }
+.bto-sb-mb-category-flag.malta:before { background-image: url(flags/mt.svg); }
+.bto-sb-mb-category-flag.mauritius:before { background-image: url(flags/mu.svg); }
+.bto-sb-mb-category-flag.males:before { background-image: url(flags/mv.svg); }
+.bto-sb-mb-category-flag.malawi:before { background-image: url(flags/mw.svg); }
+.bto-sb-mb-category-flag.mexico:before { background-image: url(flags/mx.svg); }
+.bto-sb-mb-category-flag.malaysia:before { background-image: url(flags/my.svg); }
+.bto-sb-mb-category-flag.mozambique:before { background-image: url(flags/mz.svg); }
+.bto-sb-mb-category-flag.namibia:before { background-image: url(flags/na.svg); }
+.bto-sb-mb-category-flag.new.caledonia:before { background-image: url(flags/nc.svg); }
+.bto-sb-mb-category-flag.niger:before { background-image: url(flags/ne.svg); }
+.bto-sb-mb-category-flag.norfolk.island:before { background-image: url(flags/nf.svg); }
+.bto-sb-mb-category-flag.nigeria:before { background-image: url(flags/ng.svg); }
+.bto-sb-mb-category-flag.nicaragua:before { background-image: url(flags/ni.svg); }
+.bto-sb-mb-category-flag.netherlands:before, .bto-sb-mb-category-flag.holland:before { background-image: url(flags/nl.svg); }
+.bto-sb-mb-category-flag.netherlands.antilles:before { background-image: url(flags/an.svg); }
+.bto-sb-mb-category-flag.norway:before, .bto-sb-mb-category-flag.norway-amateur:before { background-image: url(flags/no.svg); }
+.bto-sb-mb-category-flag.nepal:before { background-image: url(flags/np.svg); }
+.bto-sb-mb-category-flag.nauru:before { background-image: url(flags/nr.svg); }
+.bto-sb-mb-category-flag.niue:before { background-image: url(flags/nu.svg); }
+.bto-sb-mb-category-flag.new.zealand:before, .bto-sb-mb-category-flag.new-zealand:before { background-image: url(flags/nz.svg); }
+.bto-sb-mb-category-flag.oman:before { background-image: url(flags/om.svg); }
+.bto-sb-mb-category-flag.panama:before { background-image: url(flags/pa.svg); }
+.bto-sb-mb-category-flag.peru:before { background-image: url(flags/pe.svg); }
+.bto-sb-mb-category-flag.french.polynesia:before, .bto-sb-mb-category-flag.french-polynesia:before { background-image: url(flags/pf.svg); }
+.bto-sb-mb-category-flag.new.guinea:before { background-image: url(flags/pg.svg); }
+.bto-sb-mb-category-flag.philippines:before { background-image: url(flags/ph.svg); }
+.bto-sb-mb-category-flag.pakistan:before { background-image: url(flags/pk.svg); }
+.bto-sb-mb-category-flag.poland:before { background-image: url(flags/pl.svg); }
+.bto-sb-mb-category-flag.saint.pierre:before { background-image: url(flags/pm.svg); }
+.bto-sb-mb-category-flag.pitcairn.islands:before, .bto-sb-mb-category-flag.pitcairn-islands:before { background-image: url(flags/pn.svg); }
+.bto-sb-mb-category-flag.puerto.rico:before, .bto-sb-mb-category-flag.puerto-rico:before { background-image: url(flags/pr.svg); }
+.bto-sb-mb-category-flag.palestine:before { background-image: url(flags/ps.svg); }
+.bto-sb-mb-category-flag.portugal:before { background-image: url(flags/pt.svg); }
+.bto-sb-mb-category-flag.palau:before { background-image: url(flags/pw.svg); }
+.bto-sb-mb-category-flag.paraguay:before { background-image: url(flags/py.svg); }
+.bto-sb-mb-category-flag.qatar:before { background-image: url(flags/qa.svg); }
+.bto-sb-mb-category-flag.reunion:before { background-image: url(flags/re.svg); }
+.bto-sb-mb-category-flag.romania:before { background-image: url(flags/ro.svg); }
+.bto-sb-mb-category-flag.serbia:before { background-image: url(flags/rs.svg); }
+.bto-sb-mb-category-flag.russia:before { background-image: url(flags/ru.svg); }
+.bto-sb-mb-category-flag.rwanda:before { background-image: url(flags/rw.svg); }
+.bto-sb-mb-category-flag.saudi:before, .bto-sb-mb-category-flag.saudi-arabia:before { background-image: url(flags/sa.svg); }
+.bto-sb-mb-category-flag.solomon.islands:before, .bto-sb-mb-category-flag.solomon-islands:before { background-image: url(flags/sb.svg); }
+.bto-sb-mb-category-flag.seychelles:before { background-image: url(flags/sc.svg); }
+.bto-sb-mb-category-flag.sudan:before { background-image: url(flags/sd.svg); }
+.bto-sb-mb-category-flag.sweden:before, .bto-sb-mb-category-flag.swe:before, .bto-sb-mb-category-flag.sweden-amateur:before { background-image: url(flags/se.svg); }
+.bto-sb-mb-category-flag.singapore:before { background-image: url(flags/sg.svg); }
+.bto-sb-mb-category-flag.saint.helena:before { background-image: url(flags/sh.svg); }
+.bto-sb-mb-category-flag.slovenia:before { background-image: url(flags/si.svg); }
+.bto-sb-mb-category-flag.jan.mayen:before, .bto-sb-mb-category-flag.svalbard:before { background-image: url(flags/sj.svg); }
+.bto-sb-mb-category-flag.slovakia:before { background-image: url(flags/sk.svg); }
+.bto-sb-mb-category-flag.sierra.leone:before, .bto-sb-mb-category-flag.sierra-leone:before { background-image: url(flags/sl.svg); }
+.bto-sb-mb-category-flag.san.marino:before, .bto-sb-mb-category-flag.san-marino:before { background-image: url(flags/sm.svg); }
+.bto-sb-mb-category-flag.senegal:before { background-image: url(flags/sn.svg); }
+.bto-sb-mb-category-flag.somalia:before { background-image: url(flags/so.svg); }
+.bto-sb-mb-category-flag.suriname:before { background-image: url(flags/sr.svg); }
+.bto-sb-mb-category-flag.sao.tome:before, .bto-sb-mb-category-flag.sao-tome:before { background-image: url(flags/st.svg); }
+.bto-sb-mb-category-flag.el.salvador:before, .bto-sb-mb-category-flag.el-salvador:before { background-image: url(flags/sv.svg); }
+.bto-sb-mb-category-flag.syria:before { background-image: url(flags/sy.svg); }
+.bto-sb-mb-category-flag.swaziland:before { background-image: url(flags/sz.svg); }
+.bto-sb-mb-category-flag.caicos.islands:before, .bto-sb-mb-category-flag.caicos-islands:before { background-image: url(flags/tc.svg); }
+.bto-sb-mb-category-flag.chad:before { background-image: url(flags/td.svg); }
+.bto-sb-mb-category-flag.french.territories:before, .bto-sb-mb-category-flag.french-territories:before { background-image: url(flags/tf.svg); }
+.bto-sb-mb-category-flag.togo:before { background-image: url(flags/tg.svg); }
+.bto-sb-mb-category-flag.thailand:before { background-image: url(flags/th.svg); }
+.bto-sb-mb-category-flag.tajikistan:before { background-image: url(flags/tj.svg); }
+.bto-sb-mb-category-flag.tokelau:before { background-image: url(flags/tk.svg); }
+.bto-sb-mb-category-flag.timorleste:before { background-image: url(flags/tl.svg); }
+.bto-sb-mb-category-flag.turkmenistan:before { background-image: url(flags/tm.svg); }
+.bto-sb-mb-category-flag.tunisia:before { background-image: url(flags/tn.svg); }
+.bto-sb-mb-category-flag.tonga:before { background-image: url(flags/to.svg); }
+.bto-sb-mb-category-flag.turkey:before, .bto-sb-mb-category-flag.turkey-amateur:before { background-image: url(flags/tr.svg); }
+.bto-sb-mb-category-flag.trinidad:before { background-image: url(flags/tt.svg); }
+.bto-sb-mb-category-flag.tuvalu:before { background-image: url(flags/tv.svg); }
+.bto-sb-mb-category-flag.taiwan:before { background-image: url(flags/tw.svg); }
+.bto-sb-mb-category-flag.tanzania:before { background-image: url(flags/tz.svg); }
+.bto-sb-mb-category-flag.ukraine:before { background-image: url(flags/ua.svg); }
+.bto-sb-mb-category-flag.uganda:before { background-image: url(flags/ug.svg); }
+.bto-sb-mb-category-flag.us.minor.islands:before, .bto-sb-mb-category-flag.us-minor-islands:before { background-image: url(flags/um.svg); }
+.bto-sb-mb-category-flag.international:before, .bto-sb-mb-category-flag.international-youth:before, .bto-sb-mb-category-flag.international-clubs:before, .bto-sb-mb-category-flag.international-women:before, .bto-sb-mb-category-flag.international-men:before { background-image: url(flags/un.svg); }
+.bto-sb-mb-category-flag.usa:before, .bto-sb-mb-category-flag.united-states:before { background-image: url(flags/us.svg); }
+.bto-sb-mb-category-flag.uruguay:before { background-image: url(flags/uy.svg); }
+.bto-sb-mb-category-flag.uzbekistan:before { background-image: url(flags/uz.svg); }
+.bto-sb-mb-category-flag.vatican.city:before, .bto-sb-mb-category-flag.vatican-city:before { background-image: url(flags/va.svg); }
+.bto-sb-mb-category-flag.saint.vincent:before, .bto-sb-mb-category-flag.saint-vincent:before { background-image: url(flags/vc.svg); }
+.bto-sb-mb-category-flag.venezuela:before { background-image: url(flags/ve.svg); }
+.bto-sb-mb-category-flag.british.virgin.islands:before, .bto-sb-mb-category-flag.british-virgin-islands:before { background-image: url(flags/vg.svg); }
+.bto-sb-mb-category-flag.us.virgin.islands:before, .bto-sb-mb-category-flag.us-virgin-islands:before { background-image: url(flags/vi.svg); }
+.bto-sb-mb-category-flag.vietnam:before { background-image: url(flags/vn.svg); }
+.bto-sb-mb-category-flag.vanuatu:before { background-image: url(flags/vu.svg); }
+.bto-sb-mb-category-flag.wallis.and.futuna:before, .bto-sb-mb-category-flag.wallis-and-futuna:before { background-image: url(flags/wf.svg); }
+.bto-sb-mb-category-flag.samoa:before { background-image: url(flags/ws.svg); }
+.bto-sb-mb-category-flag.yemen:before { background-image: url(flags/ye.svg); }
+.bto-sb-mb-category-flag.mayotte:before { background-image: url(flags/yt.svg); }
+.bto-sb-mb-category-flag.south.africa:before, .bto-sb-mb-category-flag.south-africa:before { background-image: url(flags/za.svg); }
+.bto-sb-mb-category-flag.zambia:before { background-image: url(flags/zm.svg); }
+.bto-sb-mb-category-flag.zimbabwe:before { background-image: url(flags/zw.svg); }
+.bto-sb-mb-category-flag.england:before, .bto-sb-mb-category-flag.england-amateur:before { background-image: url(flags/gb-eng.svg); }
+.bto-sb-mb-category-flag.scotland:before { background-image: url(flags/gb-sct.svg); }
+.bto-sb-mb-category-flag.wales:before { background-image: url(flags/gb-wls.svg); }
+.bto-sb-mb-category-flag.northern:before, .bto-sb-mb-category-flag.northern-ireland:before { background-image: url(flags/gb-nir.svg); }
+.bto-sb-mb-category-flag.uefa:before { background-image: url(flags/uefa.svg); }
+.bto-sb-mb-category-flag.leagues:before { background-image: url(flags/leagues.svg); }
+.bto-sb-mb-category-flag.rugby:before, .bto-sb-mb-category-flag.rugby-union-sevens:before, .bto-sb-mb-category-flag.rugby-league:before, .bto-sb-mb-category-flag.rugby-union:before { background-image: url(flags/rugby.svg); }
+.bto-sb-mb-category-flag.atp:before { background-image: url(flags/atp.svg); }
+.bto-sb-mb-category-flag.itf:before, .bto-sb-mb-category-flag.itf-men:before, .bto-sb-mb-category-flag.itf-women:before { background-image: url(flags/itf.svg); }
+.bto-sb-mb-category-flag.wta:before, .bto-sb-mb-category-flag.wta-125k:before { background-image: url(flags/wta.svg); }
+.bto-sb-mb-category-flag.challenge:before, .bto-sb-mb-category-flag.challenger:before { background-image: url(flags/challenge.svg); }
+.bto-sb-mb-category-flag.hopman-cup:before { background-image: url(flags/hopman-cup.svg); }
+.bto-sb-mb-category-flag.juniors:before, .bto-sb-mb-category-flag.legends:before, .bto-sb-mb-category-flag.wheelchairs:before, .bto-sb-mb-category-flag.iptl:before, .bto-sb-mb-category-flag.tennis:before { background-image: url(flags/tennis.svg); }
+.bto-sb-mb-category-flag.fed-cup:before, .bto-sb-mb-category-flag.federation-cup:before { background-image: url(flags/fed-cup.svg); }
+.bto-sb-mb-category-flag.davis-cup:before { background-image: url(flags/daviscup.svg); }
+.bto-sb-mb-category-flag.exhibition:before { background-image: url(flags/exhibition.svg); }
+.bto-sb-mb-category-flag.men:before { background-image: url(flags/golf-men.svg); }
+.bto-sb-mb-category-flag.women:before, .bto-sb-mb-category-flag.woman:before { background-image: url(flags/golf-women.svg); }
+.bto-sb-mb-category-flag.moto-category:before, .bto-sb-mb-category-flag.dtm:before, .bto-sb-mb-category-flag.speedway:before, .bto-sb-mb-category-flag.bikes:before, .bto-sb-mb-category-flag.rally:before { background-image: url(flags/moto-category.svg); }
+.bto-sb-mb-category-flag.formula:before, .bto-sb-mb-category-flag.formula-1:before { background-image: url(flags/formula.svg); }
+.bto-sb-mb-category-flag.nascar:before { background-image: url(flags/nascar.svg); }
+.bto-sb-mb-category-flag.indycar:before { background-image: url(flags/indycar.svg); }
+.bto-sb-mb-category-flag.politics:before { background-image: url(flags/politics.svg); }
+.bto-sb-mb-category-flag.music:before { background-image: url(flags/music.svg); }
+.bto-sb-mb-category-flag.entertainment:before { background-image: url(flags/entertainment.svg); }
+.bto-sb-mb-category-flag.virtual-football:before, .bto-sb-mb-category-flag.virtual-leagues:before { background-image: url(flags/v-football.svg); }
+.bto-sb-mb-category-flag.virtual-basketball:before { background-image: url(flags/v-basketball.svg); }
+.bto-sb-mb-category-flag.virtual-tennis:before, .bto-sb-mb-category-flag.virtual-tennis-open:before { background-image: url(flags/v-tennis.svg); }
+.bto-sb-mb-category-flag.virtual-horses:before { background-image: url(flags/v-horse.svg); }
+.bto-sb-mb-category-flag.virtual-dogs:before { background-image: url(flags/v-dog.svg); }
+.bto-sb-mb-category-flag.acb:before, .bto-sb-mb-category-flag.bamma:before, .bto-sb-mb-category-flag.cage-warriors:before, .bto-sb-mb-category-flag.pfl:before, .bto-sb-mb-category-flag.titan-fc:before, .bto-sb-mb-category-flag.euro-fc:before, .bto-sb-mb-category-flag.invicta-fc:before, .bto-sb-mb-category-flag.cage:before, .bto-sb-mb-category-flag.ufc:before, .bto-sb-mb-category-flag.bellator:before, .bto-sb-mb-category-flag.one-fc:before, .bto-sb-mb-category-flag.rizin-ff:before, .bto-sb-mb-category-flag.ksw:before { background-image: url(flags/mma.svg); }
+.bto-sb-mb-category-flag.faceit-cs-go:before, .bto-sb-mb-category-flag.cevo-cs-go:before, .bto-sb-mb-category-flag.cga-cs-go:before, .bto-sb-mb-category-flag.hellcase-cs-go:before, .bto-sb-mb-category-flag.binary-dragon-cs-go:before, .bto-sb-mb-category-flag.bts-cs-go:before, .bto-sb-mb-category-flag.mettlestate-cs-go:before, .bto-sb-mb-category-flag.subaru-cs-go:before, .bto-sb-mb-category-flag.htc-cs-go:before, .bto-sb-mb-category-flag.rog-cs-go:before, .bto-sb-mb-category-flag.sostronk-cs-go:before, .bto-sb-mb-category-flag.xlg-cs-go:before, .bto-sb-mb-category-flag.wca-cs-go:before, .bto-sb-mb-category-flag.uk-masters-cs-go:before, .bto-sb-mb-category-flag.china-cs-go:before, .bto-sb-mb-category-flag.zowie-cs-go:before, .bto-sb-mb-category-flag.e-frag-cs-go:before, .bto-sb-mb-category-flag.wesg-cs-go:before, .bto-sb-mb-category-flag.leagueofsharks-cs-go:before, .bto-sb-mb-category-flag.ibuypower-cs-go:before, .bto-sb-mb-category-flag.pgl-cs-go:before, .bto-sb-mb-category-flag.turner-cs-go:before, .bto-sb-mb-category-flag.nea-cs-go:before, .bto-sb-mb-category-flag.power-lan-cs-go:before, .bto-sb-mb-category-flag.esea-cs-go:before, .bto-sb-mb-category-flag.northern-arena-cs-go:before, .bto-sb-mb-category-flag.gfinity-cs-go:before, .bto-sb-mb-category-flag.adrenaline-cs-go:before, .bto-sb-mb-category-flag.starladder-cs-go:before, .bto-sb-mb-category-flag.betradar-cs-go:before, .bto-sb-mb-category-flag.dreamhack-cs-go:before, .bto-sb-mb-category-flag.assembly-cs-go:before, .bto-sb-mb-category-flag.eleague-cs-go:before, .bto-sb-mb-category-flag.mlg-cs-go:before, .bto-sb-mb-category-flag.esl-cs-go:before { background-image: url(flags/esport-cs.svg); }
+.bto-sb-mb-category-flag.riot-lol:before, .bto-sb-mb-category-flag.esl-lol:before, .bto-sb-mb-category-flag.tencent-lol:before, .bto-sb-mb-category-flag.kespa-lol:before, .bto-sb-mb-category-flag.demacia-lol:before, .bto-sb-mb-category-flag.nest-lol:before { background-image: url(flags/esport-legends.svg); }
+.bto-sb-mb-category-flag.moonduck-dota2:before, .bto-sb-mb-category-flag.wesg-dota2:before, .bto-sb-mb-category-flag.wellplay-dota2:before, .bto-sb-mb-category-flag.dota-pit-dota2:before, .bto-sb-mb-category-flag.rog-dota2:before, .bto-sb-mb-category-flag.northern-arena-dota2:before, .bto-sb-mb-category-flag.wca-dota2:before, .bto-sb-mb-category-flag.bts-dota2:before, .bto-sb-mb-category-flag.pro-gamer-dota2:before, .bto-sb-mb-category-flag.epg-dota2:before, .bto-sb-mb-category-flag.mpgl-dota2:before, .bto-sb-mb-category-flag.faceit-dota2:before, .bto-sb-mb-category-flag.royal-arena-dota2:before, .bto-sb-mb-category-flag.marstv-dota2:before, .bto-sb-mb-category-flag.dreamhack-dota2:before, .bto-sb-mb-category-flag.epic-dota2:before, .bto-sb-mb-category-flag.keytv-dota2:before, .bto-sb-mb-category-flag.prodota-dota2:before, .bto-sb-mb-category-flag.fight-night-dota2:before, .bto-sb-mb-category-flag.perfect-world-dota2:before, .bto-sb-mb-category-flag.starladder-dota2:before,
+.bto-sb-mb-category-flag.neso-dota2:before, .bto-sb-mb-category-flag.valve-dota2:before, .bto-sb-mb-category-flag.esl-dota2:before, .bto-sb-mb-category-flag.china-dota2:before, .bto-sb-mb-category-flag.met-dota2:before, .bto-sb-mb-category-flag.resf-dota2:before, .bto-sb-mb-category-flag.joindota-dota2:before, .bto-sb-mb-category-flag.zotac-dota2:before { background-image: url(flags/esport-dota.svg); }
+.bto-sb-mb-category-flag.kespa-sc2:before, .bto-sb-mb-category-flag.spotv-sc:before, .bto-sb-mb-category-flag.spotv-sc2:before, .bto-sb-mb-category-flag.dreamhack-sc2:before, .bto-sb-mb-category-flag.taketv-sc2:before, .bto-sb-mb-category-flag.afreeca-sc:before, .bto-sb-mb-category-flag.wca-sc2:before, .bto-sb-mb-category-flag.versus-sc2:before, .bto-sb-mb-category-flag.gsl-sc2:before, .bto-sb-mb-category-flag.blizzard-sc2:before, .bto-sb-mb-category-flag.esl-sc2 { background-image: url(flags/esport-starcraft.svg); }
+.bto-sb-mb-category-flag.ski-jumping:before, .bto-sb-mb-category-flag.nordic-combined:before, .bto-sb-mb-category-flag.ski-jumping-mixed:before, .bto-sb-mb-category-flag.ski-jumping-women:before, .bto-sb-mb-category-flag.parallel-mixed-team:before, .bto-sb-mb-category-flag.slalom-women:before, .bto-sb-mb-category-flag.downhill:before, .bto-sb-mb-category-flag.giant-slalom-women:before, .bto-sb-mb-category-flag.super-g:before, .bto-sb-mb-category-flag.giant-slalom:before, .bto-sb-mb-category-flag.downhill-women:before, .bto-sb-mb-category-flag.super-g-women:before, .bto-sb-mb-category-flag.overall:before, .bto-sb-mb-category-flag.overall-women:before, .bto-sb-mb-category-flag.alpine-combined:before, .bto-sb-mb-category-flag.slalom:before, .bto-sb-mb-category-flag.alpine-combined-women:before, .bto-sb-mb-category-flag.parallel-city-events:before, .bto-sb-mb-category-flag.parallel-city-events-women:before, .bto-sb-mb-category-flag.relay-mixed:before, .bto-sb-mb-category-flag.individual-women:before, .bto-sb-mb-category-flag.individual:before, .bto-sb-mb-category-flag.sprint-women:before, .bto-sb-mb-category-flag.sprint:before, .bto-sb-mb-category-flag.pursuit-women:before, .bto-sb-mb-category-flag.pursuit:before, .bto-sb-mb-category-flag.relay-women:before, .bto-sb-mb-category-flag.overall-women:before, .bto-sb-mb-category-flag.relay:before, .bto-sb-mb-category-flag.mass-start:before, .bto-sb-mb-category-flag.mass-start-women:before, .bto-sb-mb-category-flag.sprint:before, .bto-sb-mb-category-flag.sprint-women:before, .bto-sb-mb-category-flag.distance:before, .bto-sb-mb-category-flag.distance-women:before, .bto-sb-mb-category-flag.team-women:before, .bto-sb-mb-category-flag.team:before, .bto-sb-mb-category-flag.alpine-men:before, .bto-sb-mb-category-flag.alpine-women:before, .bto-sb-mb-category-flag.biathlon-men:before, .bto-sb-mb-category-flag.biathlon-women:before { background-image: url(flags/wintersports.svg); }
+.bto-sb-mb-category-flag.equestrian:before, .bto-sb-mb-category-flag.modern-pentathlon:before { background-image: url(flags/equestrian.svg); }
+.bto-sb-mb-category-flag.weightlifting:before { background-image: url(flags/weightlifting.svg); }
+.bto-sb-mb-category-flag.diving:before { background-image: url(flags/diving.svg); }
+.bto-sb-mb-category-flag.sailing:before { background-image: url(flags/sailing.svg); }
+.bto-sb-mb-category-flag.golf:before { background-image: url(flags/golf.svg); }
+.bto-sb-mb-category-flag.boxing:before { background-image: url(flags/boxing.svg); }
+.bto-sb-mb-category-flag.specials:before { background-image: url(flags/specials.svg); }
+.bto-sb-mb-category-flag.triathlon:before { background-image: url(flags/triathlon.svg); }
+.bto-sb-mb-category-flag.athletics:before { background-image: url(flags/athletics.svg); }
+.bto-sb-mb-category-flag.archery:before { background-image: url(flags/archery.svg); }
+.bto-sb-mb-category-flag.table-tennis:before { background-image: url(flags/table-tennis.svg); }
+.bto-sb-mb-category-flag.badminton:before { background-image: url(flags/badminton.svg); }
+.bto-sb-mb-category-flag.swimming:before, .bto-sb-mb-category-flag.marathon-swimming:before { background-image: url(flags/swimming.svg); }
+.bto-sb-mb-category-flag.beach-volley:before { background-image: url(flags/beach-volley.svg); }
+.bto-sb-mb-category-flag.cycling:before { background-image: url(flags/cycling.svg); }
+.bto-sb-mb-category-flag.rowing:before, .bto-sb-mb-category-flag.canoeing:before, .bto-sb-mb-category-flag.canoekayak:before { background-image: url(flags/rowing.svg); }
+.bto-sb-mb-category-flag.basketball:before, .bto-sb-mb-category-flag.basketball-3x3:before { background-image: url(flags/basketball.svg); }
+.bto-sb-mb-category-flag.field-hockey:before { background-image: url(flags/field-hockey.svg); }
+.bto-sb-mb-category-flag.waterpolo:before { background-image: url(flags/waterpolo.svg); }
+.bto-sb-mb-category-flag.soccer:before { background-image: url(flags/soccer.svg); }
+.bto-sb-mb-category-flag.handball:before { background-image: url(flags/handball.svg); }
+.bto-sb-mb-category-flag.volleyball:before { background-image: url(flags/volleyball.svg); }
+.bto-sb-mb-category-flag.championship:before { background-image: url(flags/championship.svg); }
+.bto-sb-mb-category-flag.group:before { background-image: url(flags/group.svg); }
+.bto-sb-mb-category-flag.outright:before { background-image: url(flags/outrights.svg); }
+.bto-sb-mb-category-flag.boost:before, .bto-sb-mb-category-flag.odds-boost:before, .bto-sb-mb-category-flag.odds-boosts:before { background-image: url(flags/boost.svg); }
+.bto-sb-mb-category-flag.cash:before, .bto-sb-mb-category-flag.cash-back:before, .bto-sb-mb-category-flag.cash-back-boosts:before { background-image: url(flags/cash.svg); }
+.bto-sb-mb-category-flag.fencing:before { background-image: url(flags/fencing.svg); }
+.bto-sb-mb-category-flag.gymnastics:before { background-image: url(flags/gymnastics.svg); }
+.bto-sb-mb-category-flag.judo:before { background-image: url(flags/judo.svg); }
+.bto-sb-mb-category-flag.skateboarding:before { background-image: url(flags/skateboarding.svg); }
+.bto-sb-mb-category-flag.surfing:before { background-image: url(flags/surfing.svg); }
+.bto-sb-mb-category-flag.taekwondo:before { background-image: url(flags/taekwondo.svg); }
+.bto-sb-mb-category-flag.triathlon:before { background-image: url(flags/triathlon.svg); }
+.bto-sb-mb-category-flag.wrestling:before { background-image: url(flags/wrestling.svg); }
+.bto-sb-mb-category-flag.baseball:before { background-image: url(flags/baseball.svg); }

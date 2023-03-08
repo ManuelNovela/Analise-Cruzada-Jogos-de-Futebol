@@ -1,0 +1,40 @@
+## RewriteEngine ##
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule .* - [L,QSA]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#index
+RewriteRule ^inicio/?$ index.php?view=inicio [L,QSA]
+RewriteRule ^auto/?$ index.php?view=auto [L,QSA]
+RewriteRule ^text/?$ index.php?view=text [L,QSA]
+
+RewriteRule ^suporte/([^/]+)/?$ index.php?view=suporte&id=$1 [L,QSA]
+RewriteRule ^imprimir/([^/]+)/?$ imprimir.php?id=$1 [L,QSA]
+
+RewriteRule ^auto/([^/]+)/?$ index.php?view=auto&action=$1 [L,QSA]
+RewriteRule ^auto/([^/]+)/([^/]+)/?$ index.php?view=auto&action=$1&id=$2 [L,QSA]
+
+RewriteRule ^trans/([^/]+)/?$ index.php?view=trans&action=$1 [L,QSA]
+RewriteRule ^trans/([^/]+)/([^/]+)/?$ index.php?view=trans&action=$1&id=$2 [L,QSA]
+
+RewriteRule ^setup/([^/]+)/?$ index.php?view=setup&action=$1 [L,QSA]
+RewriteRule ^setup/([^/]+)/([^/]+)/?$ index.php?view=setup&action=$1&id=$2 [L,QSA]
+
+
+#cron
+RewriteRule ^cron/?$ cron.php [L,QSA]
+
+#login_handler
+RewriteRule ^login_handler/?$ login_handler.php [L,QSA]
+RewriteRule ^login_handler/([^/]+)/?$ login_handler.php?action=$1 [L,QSA]
+RewriteRule ^login_handler/([^/]+)/([^/]+)/?$ login_handler.php?action=$1&id=$2 [L,QSA]
+
+#profile
+RewriteRule ^profile/?$ profile.php [L,QSA]
+RewriteRule ^profile/([^/]+)/?$ profile.php?view=$1 [L,QSA]
+RewriteRule ^profile/([^/]+)/([^/]+)/?$ profile.php?view=$1&action=$2 [L,QSA]
+
+
